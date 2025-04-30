@@ -1,0 +1,28 @@
+{
+    "vendor": "ABL",
+    "ident": "abl",
+    "devices": [
+        {
+            "ident": "emh4",
+            "name": "eMH4",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "emh4.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "wallbox",
+                        "VariableConfigType": 0,
+                        "VariableID": "Active_Power"
+                    }
+                }
+            }
+        }
+    ]
+}

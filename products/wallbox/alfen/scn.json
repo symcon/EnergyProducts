@@ -1,0 +1,818 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "Name",
+            "Length": 17,
+            "Name": "Name",
+            "Profile": "",
+            "ReadAddress": 100,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Name"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "Manufacturer",
+            "Length": 5,
+            "Name": "Manufacturer",
+            "Profile": "",
+            "ReadAddress": 117,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hersteller"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "Modbus_table_version",
+            "Length": 0,
+            "Name": "Modbus table version",
+            "Profile": "",
+            "ReadAddress": 122,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Version Modbus-Tabelle"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "Firmware_version",
+            "Length": 17,
+            "Name": "Firmware version",
+            "Profile": "",
+            "ReadAddress": 123,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmware Version"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "Platform_type",
+            "Length": 17,
+            "Name": "Platform type",
+            "Profile": "",
+            "ReadAddress": 140,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Plattformtyp"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "Station_serial_number",
+            "Length": 11,
+            "Name": "Station serial number",
+            "Profile": "",
+            "ReadAddress": 157,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gerät Seriennummer"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "Date_year",
+            "Length": 0,
+            "Name": "Year",
+            "Profile": "",
+            "ReadAddress": 168,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Jahr"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "Date_month",
+            "Length": 0,
+            "Name": "Month",
+            "Profile": "",
+            "ReadAddress": 169,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Monat"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "Date_day",
+            "Length": 0,
+            "Name": "Day",
+            "Profile": "",
+            "ReadAddress": 170,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Tag"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "Time_hour",
+            "Length": 0,
+            "Name": "Hour",
+            "Profile": "",
+            "ReadAddress": 171,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stunde"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "Time_minute",
+            "Length": 0,
+            "Name": "Minute",
+            "Profile": "",
+            "ReadAddress": 172,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Minute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "Time_second",
+            "Length": 0,
+            "Name": "Second",
+            "Profile": "",
+            "ReadAddress": 173,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sekunde"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 11,
+            "Factor": 0.001,
+            "Ident": "Uptime",
+            "Length": 0,
+            "Name": "Uptime",
+            "Profile": "ALFEN.METER_TIMESTAMP",
+            "ReadAddress": 174,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebszeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "Time_zone",
+            "Length": 0,
+            "Name": "Time zone offset",
+            "Profile": "ALFEN.TIMEZONE_OFFSET",
+            "ReadAddress": 178,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zeitzonenverschiebung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Station_Active_Max_Current",
+            "Length": 0,
+            "Name": "Station Active Max Current",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1100,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aktiver maximaler Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Temperature",
+            "Length": 0,
+            "Name": "Temperature",
+            "Profile": "ALFEN.TEMPERATURE",
+            "ReadAddress": 1102,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "OCPP_state",
+            "Length": 0,
+            "Name": "OCPP state",
+            "Profile": "",
+            "ReadAddress": 1104,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "OCPP Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "Nr_of_sockets",
+            "Length": 0,
+            "Name": "Number of sockets",
+            "Profile": "",
+            "ReadAddress": 1105,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Anzahl von Sockets"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "SCN_name",
+            "Length": 4,
+            "Name": "SCN name",
+            "Profile": "",
+            "ReadAddress": 1400,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Name"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "SCN_Sockets",
+            "Length": 0,
+            "Name": "SCN Sockets",
+            "Profile": "",
+            "ReadAddress": 1404,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Sockets"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Total_Consumption_Phase_L1",
+            "Length": 0,
+            "Name": "SCN Total Consumption L1",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1405,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Gesamtverbrauch L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Total_Consumption_Phase_L2",
+            "Length": 0,
+            "Name": "SCN Total Consumption L2",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1407,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Gesamtverbrauch L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Total_Consumption_Phase_L3",
+            "Length": 0,
+            "Name": "SCN Total Consumption L3",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1409,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Gesamtverbrauch L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Actual_Max_Current_Phase_L1",
+            "Length": 0,
+            "Name": "SCN Actual Max Current L1",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1411,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Aktueller Maximalstrom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Actual_Max_Current_Phase_L2",
+            "Length": 0,
+            "Name": "SCN Actual Max Current L2",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1413,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Aktueller Maximalstrom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Actual_Max_Current_Phase_L3",
+            "Length": 0,
+            "Name": "SCN Actual Max Current L3",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1415,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Aktueller Maximalstrom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Max_Current_per_Phase_L1",
+            "Length": 0,
+            "Name": "SCN Max Current L1",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1417,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Maximalstrom L1"
+                }
+            ],
+            "WriteAddress": 1417,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Max_Current_per_Phase_L2",
+            "Length": 0,
+            "Name": "SCN Max Current L2",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1419,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Maximalstrom L2"
+                }
+            ],
+            "WriteAddress": 1417,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Max_Current_per_Phase_L3",
+            "Length": 0,
+            "Name": "SCN Max Current L3",
+            "Profile": "ALFEN.CURRENT",
+            "ReadAddress": 1421,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Maximalstrom L3"
+                }
+            ],
+            "WriteAddress": 1417,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "Remaining_valid_time_Max_Current_Phase_L1",
+            "Length": 0,
+            "Name": "Remaining valid time Max Current L1",
+            "Profile": "ALFEN.MODBUS_SLAVE_MAX_CURRENT_TIME",
+            "ReadAddress": 1423,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verbleibende Gültigkeitsdauer Max. Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "Remaining_valid_time_Max_Current_Phase_L2",
+            "Length": 0,
+            "Name": "Remaining valid time Max Current L2",
+            "Profile": "ALFEN.MODBUS_SLAVE_MAX_CURRENT_TIME",
+            "ReadAddress": 1425,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verbleibende Gültigkeitsdauer Max. Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "Remaining_valid_time_Max_Current_Phase_L3",
+            "Length": 0,
+            "Name": "Remaining valid time Max Current L3",
+            "Profile": "ALFEN.MODBUS_SLAVE_MAX_CURRENT_TIME",
+            "ReadAddress": 1427,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verbleibende Gültigkeitsdauer Max. Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SCN_Safe_current",
+            "Length": 0,
+            "Name": "SCN Safe current",
+            "Profile": "",
+            "ReadAddress": 1429,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SCN Sichere Stromstärke"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "SCN Modbus Slave Max Current enable",
+            "Profile": "ALFEN.SCN_MAX_CURRENT_ENABLE",
+            "ReadAddress": 1431,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "ALFEN.CURRENT": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Electricity",
+            "MaxValue": 50.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "ALFEN.METER_TIMESTAMP": {
+            "Associations": [],
+            "Digits": 4,
+            "Icon": "Clock",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.001,
+            "Suffix": " s",
+            "Type": 2
+        },
+        "ALFEN.MODBUS_SLAVE_MAX_CURRENT_TIME": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Clock",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " s",
+            "Type": 1
+        },
+        "ALFEN.POWER_TARGET_1PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 3680.0,
+            "MinValue": 1380.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "ALFEN.POWER_TARGET_3PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 11040.0,
+            "MinValue": 4140.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "ALFEN.SCN_MAX_CURRENT_ENABLE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Enabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Power",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ALFEN.TEMPERATURE": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Temperature",
+            "MaxValue": 80.0,
+            "MinValue": -30.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "ALFEN.TIMEZONE_OFFSET": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Clock",
+            "MaxValue": 10000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " min",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_1PHASED",
+            "Name": "Power, 1-phased configuration (Target)",
+            "Profile": "ALFEN.POWER_TARGET_1PHASED",
+            "ReadAction": "return ($VALUES[\"SCN_Max_Current_per_Phase_L1\"]+$VALUES[\"SCN_Max_Current_per_Phase_L2\"]+$VALUES[\"SCN_Max_Current_per_Phase_L3\"])*230;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 1-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"SCN_Max_Current_per_Phase_L1\" => $VALUE/230,\n    \"SCN_Max_Current_per_Phase_L2\" => $VALUE/230,\n    \"SCN_Max_Current_per_Phase_L3\" => $VALUE/230,\n];"
+        },
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_3PHASED",
+            "Name": "Power, 3-phased configuration (Target)",
+            "Profile": "ALFEN.POWER_TARGET_3PHASED",
+            "ReadAction": "return ($VALUES[\"SCN_Max_Current_per_Phase_L1\"]+$VALUES[\"SCN_Max_Current_per_Phase_L2\"]+$VALUES[\"SCN_Max_Current_per_Phase_L3\"])*230;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 3-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"SCN_Max_Current_per_Phase_L1\" => floor($VALUE/230/3),\n    \"SCN_Max_Current_per_Phase_L2\" => floor($VALUE/230/3),\n    \"SCN_Max_Current_per_Phase_L3\" => $VALUE/230 - (floor($VALUE/230/3) * 2),\n];"
+        }
+    ]
+}

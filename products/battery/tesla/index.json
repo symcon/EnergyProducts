@@ -1,0 +1,73 @@
+{
+    "vendor": "Tesla",
+    "ident": "tesla",
+    "devices": [
+        {
+            "ident": "powerwall",
+            "name": "Powerwall",
+            "guid": "{65B0C038-48E8-E202-242E-160819A04874}",
+            "configurationType": "oauth",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": "*percentage_charged",
+                        "Invert": true,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "storage",
+                        "VariableConfigType": 0,
+                        "VariableID": "*battery_power"
+                    }
+                }
+            },
+            "logging": {
+                "percentage_charged": 0,
+                "battery_power": 0
+            }
+        },
+        {
+            "ident": "powerwall2",
+            "name": "Powerwall 2",
+            "guid": "{65B0C038-48E8-E202-242E-160819A04874}",
+            "configurationType": "oauth",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": "*percentage_charged",
+                        "Invert": true,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "storage",
+                        "VariableConfigType": 0,
+                        "VariableID": "*battery_power"
+                    }
+                }
+            }
+        },
+        {
+            "ident": "powerwall3",
+            "name": "Powerwall 3",
+            "guid": "{65B0C038-48E8-E202-242E-160819A04874}",
+            "configurationType": "oauth",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": "*percentage_charged",
+                        "Invert": true,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "storage",
+                        "VariableConfigType": 0,
+                        "VariableID": "*battery_power"
+                    }
+                }
+            }
+        }
+    ]
+}

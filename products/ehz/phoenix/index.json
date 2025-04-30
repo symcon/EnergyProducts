@@ -1,0 +1,35 @@
+{
+    "vendor": "Phoenix",
+    "ident": "phoenix",
+    "devices": [
+        {
+            "ident": "eem-em",
+            "name": "EEM-EM",
+            "template": "Phoenix_EEMEM.json",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "grid",
+                        "VariableConfigType": 0,
+                        "VariableID": "Active_Power_Sum_100"
+                    }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "SourceID": "*Active_Power_Sum_100"
+                }
+            },
+            "logging": {
+                "Active_Power_Sum_100": 0,
+                "ConumedEnergySum": 1
+            }
+        }
+    ]
+}

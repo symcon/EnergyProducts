@@ -1,0 +1,182 @@
+{
+    "vendor": "Solar-Log",
+    "ident": "solarlog",
+    "devices": [
+        {
+            "ident": "base",
+            "name": "Base",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "solarlog.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "A_3_4_3502"
+                    }
+                }
+            }
+        },
+        {
+            "ident": "200",
+            "name": "200",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "solarlog.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "A_3_4_3502"
+                    }
+                }
+            }
+        },
+        {
+            "ident": "250",
+            "name": "250",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "solarlog.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "A_3_4_3502"
+                    }
+                }
+            }
+        },
+        {
+            "ident": "300",
+            "name": "300",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "solarlog.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "A_3_4_3502"
+                    }
+                }
+            }
+        },
+        {
+            "ident": "500",
+            "name": "500",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "solarlog.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "A_3_4_3502"
+                    }
+                }
+            }
+        },
+        {
+            "ident": "1000",
+            "name": "1000",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "solarlog.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "A_3_4_3502"
+                    }
+                }
+            }
+        },
+        {
+            "ident": "1900",
+            "name": "1900",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "solarlog.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "A_3_4_3502"
+                    }
+                }
+            }
+        },
+        {
+            "ident": "2000",
+            "name": "2000",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "solarlog.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "A_3_4_3502"
+                    }
+                }
+            }
+        }
+    ]
+}

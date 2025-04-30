@@ -1,0 +1,1073 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "charging_state",
+            "Length": 0,
+            "Name": "Charging state",
+            "Profile": "KEBA.CHARGING_STATE",
+            "ReadAddress": 1000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladestatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "cable_state",
+            "Length": 0,
+            "Name": "Cable state",
+            "Profile": "KEBA.CABLE_STATE",
+            "ReadAddress": 1004,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kabelzustand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "error_code",
+            "Length": 0,
+            "Name": "Error Code",
+            "Profile": "KEBA.ERROR_CODE",
+            "ReadAddress": 1006,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehlercode"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "charging_current_state_1",
+            "Length": 0,
+            "Name": "Charging current phase 1",
+            "Profile": "KEBA.CHARGING_CURRENT_PHASE",
+            "ReadAddress": 1008,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladestrom Phase 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "charging_current_phase_2",
+            "Length": 0,
+            "Name": "Charging current phase 2",
+            "Profile": "KEBA.CHARGING_CURRENT_PHASE",
+            "ReadAddress": 1010,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladestrom Phase 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "charging_current_phase_3",
+            "Length": 0,
+            "Name": "Charging current phase 3",
+            "Profile": "KEBA.CHARGING_CURRENT_PHASE",
+            "ReadAddress": 1012,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladestrom Phase 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "serial_number",
+            "Length": 0,
+            "Name": "Serial Number",
+            "Profile": "",
+            "ReadAddress": 1014,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Seriennummer"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "product_type_and_features",
+            "Length": 0,
+            "Name": "Product type and features",
+            "Profile": "",
+            "ReadAddress": 1016,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkttyp und Features"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "firmware_version",
+            "Length": 0,
+            "Name": "Firmware version",
+            "Profile": "",
+            "ReadAddress": 1018,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmwareversion"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "active_power",
+            "Length": 0,
+            "Name": "Active power",
+            "Profile": "KEBA.ACTIVE_POWER",
+            "ReadAddress": 1020,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.0001,
+            "Ident": "total_energy",
+            "Length": 0,
+            "Name": "Total energy",
+            "Profile": "KEBA.TOTAL_ENERGY",
+            "ReadAddress": 1036,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtenergie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "voltage_phase_1",
+            "Length": 0,
+            "Name": "Voltage phase 1",
+            "Profile": "KEBA.VOLTAGE_PHASE",
+            "ReadAddress": 1040,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung Phase 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "voltage_phase_2",
+            "Length": 0,
+            "Name": "Voltage phase 2",
+            "Profile": "KEBA.VOLTAGE_PHASE",
+            "ReadAddress": 1042,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung Phase 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "voltage_phase_3",
+            "Length": 0,
+            "Name": "Voltage phase 3",
+            "Profile": "KEBA.VOLTAGE_PHASE",
+            "ReadAddress": 1044,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung Phase 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "power_factor",
+            "Length": 0,
+            "Name": "Power factor",
+            "Profile": "KEBA.POWER_FACTOR",
+            "ReadAddress": 1046,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "max_charging_current",
+            "Length": 0,
+            "Name": "Max charging current",
+            "Profile": "KEBA.MAX_CHARGING_CURRENT",
+            "ReadAddress": 1100,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximaler Ladestrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "max_supported_current",
+            "Length": 0,
+            "Name": "Max supported current",
+            "Profile": "KEBA.MAX_CHARGING_CURRENT",
+            "ReadAddress": 1110,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximal unterstützter Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "rfid_card",
+            "Length": 0,
+            "Name": "RFID card",
+            "Profile": "",
+            "ReadAddress": 1500,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "RFID Karte"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.0001,
+            "Ident": "charged_energy",
+            "Length": 0,
+            "Name": "Charged energy",
+            "Profile": "KEBA.TOTAL_ENERGY",
+            "ReadAddress": 1502,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geladene Energie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "phase_switching_source",
+            "Length": 0,
+            "Name": "Phase switching source",
+            "Profile": "",
+            "ReadAddress": 1550,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phasenumschaltung Quelle"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "phase_switching_state",
+            "Length": 0,
+            "Name": "Phase switching state",
+            "Profile": "",
+            "ReadAddress": 1552,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zustand der Phasenumschaltung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "failsafe_current_setting",
+            "Length": 0,
+            "Name": "Failsafe current setting",
+            "Profile": "KEBA.FAILSAFE_CURRENT",
+            "ReadAddress": 1600,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Failsafe-Stromeinstellung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "failsafe_timeout_setting",
+            "Length": 0,
+            "Name": "Failsafe timeout setting",
+            "Profile": "KEBA.FAILSAFE_TIMEOUT_SETTING",
+            "ReadAddress": 1602,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Failsafe-Timeout-Einstellung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "set_charging_current",
+            "Length": 0,
+            "Name": "Set charging current",
+            "Profile": "KEBA.MAX_CHARGING_CURRENT",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Eingestellter Ladestrom"
+                }
+            ],
+            "WriteAddress": 5004,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "set_energy",
+            "Length": 0,
+            "Name": "Set energy",
+            "Profile": "KEBA.SET_ENERGY",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie einstellen"
+                }
+            ],
+            "WriteAddress": 5010,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "unlock_plug",
+            "Length": 0,
+            "Name": "Unlock plug",
+            "Profile": "KEBA.UNLOCK_PLUG",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Anschluss entriegeln"
+                }
+            ],
+            "WriteAddress": 5012,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "enable_diasble_charging_station",
+            "Length": 0,
+            "Name": "Enable/Disable charging station",
+            "Profile": "KEBA.ABLE_CHARGING_STATION",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aktivieren/Deaktivieren der Ladestation"
+                }
+            ],
+            "WriteAddress": 5014,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "set_phase_switch_toggle",
+            "Length": 0,
+            "Name": "Set phase switch toggle",
+            "Profile": "KEBA.SET_PHASE_SWITCH_TOGGLE",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phasenumschaltung einstellen"
+                }
+            ],
+            "WriteAddress": 5050,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "trigger_phase_switch",
+            "Length": 0,
+            "Name": "Trigger phase switch",
+            "Profile": "KEBA.TRIGGER_PHASE_SWITCH",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phasenschalter"
+                }
+            ],
+            "WriteAddress": 5052,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "set_failsafe_current",
+            "Length": 0,
+            "Name": "Set failsafe current",
+            "Profile": "KEBA.CHARGING_CURRENT_PHASE",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Failsafe-Strom einstellen"
+                }
+            ],
+            "WriteAddress": 5016,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "set_failsafe_timeout",
+            "Length": 0,
+            "Name": "Set failsafe timeout",
+            "Profile": "KEBA.SET_FAILSAFE_TIMEOUT_SETTING",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Failsafe-Timeout einstellen"
+                }
+            ],
+            "WriteAddress": 5018,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "failsafe_persist",
+            "Length": 0,
+            "Name": "Failsafe persist",
+            "Profile": "KEBA.SET_FAILSAFE_PERSIST",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Failsafepersistenz"
+                }
+            ],
+            "WriteAddress": 5020,
+            "WriteFunctionCode": 6
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "KEBA.ABLE_CHARGING_STATION": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disable charging station (Suspended mode)",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Enable charging station (Charging)",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Power",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA.ACTIVE_POWER": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "Electricity",
+            "MaxValue": 10000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " W",
+            "Type": 2
+        },
+        "KEBA.CABLE_STATE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "No cable is plugged.",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Cable is connected to the charging station (not to the electric vehicle).",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Cable is connected to the charging station and locked (not to the electric vehicle).",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Cable is connected to the charging station and the electric vehicle (not locked).",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Cable is connected to the charging station and the electric vehicle and locked (charging).",
+                    "Value": 7.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Information",
+            "MaxValue": 7.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA.CHARGING_CURRENT_PHASE": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "KEBA.CHARGING_STATE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Start-up of the charging station",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "The charging station is not ready for charging. The charging station is not connected to an electric vehicle, it is locked by the authorization function or another mechanism.",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "The charging station is ready for charging and waits for a reaction from the electric vehicle.",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A charging process is active.",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "An error has occurred.",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "The charging process is temporarily interrupted because the temperature is too high or the wallbox is in suspended mode.",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Information",
+            "MaxValue": 5.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA.ERROR_CODE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "No error",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Specific error code. %d",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Information",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA.FAILSAFE_CURRENT": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 32000.0,
+            "MinValue": 6000.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " mA",
+            "Type": 1
+        },
+        "KEBA.FAILSAFE_TIMEOUT_SETTING": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 600.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " s",
+            "Type": 1
+        },
+        "KEBA.MAX_CHARGING_CURRENT": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 63000.0,
+            "MinValue": 6000.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "KEBA.POWER_FACTOR": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.1,
+            "Suffix": " %",
+            "Type": 2
+        },
+        "KEBA.POWER_TARGET_1PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 3680.0,
+            "MinValue": 1380.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "KEBA.POWER_TARGET_3PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 11040.0,
+            "MinValue": 4140.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "KEBA.SET_ENERGY": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Electricity",
+            "MaxValue": 10000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "KEBA.SET_FAILSAFE_PERSIST": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Current Failsafe settings will be persisted",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Power",
+            "MaxValue": 1.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA.SET_FAILSAFE_TIMEOUT_SETTING": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Deactivates charging (charging will continue with the highest possible value)",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "%d s",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 600.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA.SET_PHASE_SWITCH_TOGGLE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "No phase toggle source is available",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Toggle via OCPP",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Direct toggle command via RESTAPI",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Toggle via Modbus",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Toggle via UDP",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 4.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA.TOTAL_ENERGY": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "Electricity",
+            "MaxValue": 10000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "KEBA.TRIGGER_PHASE_SWITCH": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "1 phase (default state)",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "3 phases",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "EnergyProduction",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA.UNLOCK_PLUG": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unlock Plug",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "No function",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Information",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA.VOLTAGE_PHASE": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 500.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " V",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_1PHASED",
+            "Name": "Power, 1-phased configuration (Target)",
+            "Profile": "KEBA.POWER_TARGET_1PHASED",
+            "ReadAction": "",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 1-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\r\n    \"set_charging_current\" => $VALUE/230/1\r\n];"
+        },
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_3PHASED",
+            "Name": "Power, 3-phased configuration (Target)",
+            "Profile": "KEBA.POWER_TARGET_3PHASED",
+            "ReadAction": "",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 3-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\r\n    \"set_charging_current\" => $VALUE/230/3\r\n];"
+        }
+    ]
+}

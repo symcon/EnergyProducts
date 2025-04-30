@@ -1,0 +1,19 @@
+{
+    "vendor": "Symcon",
+    "ident": "symcon",
+    "devices": [
+        {
+            "ident": "electricityprice",
+            "name": "Strompreis",
+            "bundleId": "de.paresy.electricityprice",
+            "guid": "{9354E28B-4E62-AEE5-8F88-BECA9F3F4F8F}",
+            "configurationType": "default",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyPricesID": "*MarketData"
+                }
+            },
+            "link": 0
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "vendor": "Mennekes",
+    "ident": "mennekes",
+    "devices": [
+        {
+            "name": "AMEDIO Professional",
+            "ident": "amedioprofessional",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "all.json",
+            "configurationType": "modbus-tcp"
+        },
+        {
+            "name": "AMTRON Charge Control 11",
+            "ident": "amtronchargecontrol11",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "all.json",
+            "configurationType": "modbus-tcp"
+        },
+        {
+            "name": "AMTRON Professional",
+            "ident": "amtronprofessional",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "all.json",
+            "configurationType": "modbus-tcp"
+        }
+    ]
+}

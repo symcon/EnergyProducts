@@ -1,0 +1,56 @@
+{
+    "vendor": "SolarEdge",
+    "ident": "solaredge",
+    "devices": [
+        {
+            "ident": "se125",
+            "name": "SE 12,5K",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "sunspec.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "I_AC_Power_calculated"
+                    }
+                }
+            },
+            "logging": {
+                "I_AC_Power_calculated": 0
+            }
+        },
+        {
+            "ident": "se25",
+            "name": "SE 25K",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "sunspec.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "solar",
+                        "VariableConfigType": 0,
+                        "VariableID": "I_AC_Power_calculated"
+                    }
+                }
+            },
+            "logging": {
+                "I_AC_Power_calculated": 0
+            }
+        }
+    ]
+}

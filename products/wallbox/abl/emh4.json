@@ -1,0 +1,717 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "Revision_API",
+            "Length": 0,
+            "Name": "Revision API",
+            "Profile": "",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Revision API"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "Type_Controller",
+            "Length": 0,
+            "Name": "Type Controller",
+            "Profile": "ABL.TYP_CONTROLLER",
+            "ReadAddress": 2,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Typ Controller"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "Node_Type",
+            "Length": 0,
+            "Name": "Node type",
+            "Profile": "ABL.NODE_TYPE",
+            "ReadAddress": 3,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Knotentyp"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "Material_number_SAP",
+            "Length": 32,
+            "Name": "Material number SAP",
+            "Profile": "",
+            "ReadAddress": 256,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Materialnummer SAP"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "Wallbox_s_n",
+            "Length": 16,
+            "Name": "Wallbox s/n",
+            "Profile": "",
+            "ReadAddress": 272,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "S/N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "Version_Outlets",
+            "Length": 0,
+            "Name": "Version Outlets",
+            "Profile": "",
+            "ReadAddress": 288,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ausführung Outlets"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "Outlet",
+            "Length": 0,
+            "Name": "Outlet",
+            "Profile": "",
+            "ReadAddress": 289,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Outlet"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "FW_Revision_ESP32",
+            "Length": 0,
+            "Name": "FW-Revision ESP32",
+            "Profile": "",
+            "ReadAddress": 290,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "FW-Revision ESP32"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Nominal_current",
+            "Length": 0,
+            "Name": "Nominal Current",
+            "Profile": "ABL.CURRENT",
+            "ReadAddress": 291,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Nennstrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Max__Current",
+            "Length": 0,
+            "Name": "Max. Current",
+            "Profile": "ABL.CURRENT",
+            "ReadAddress": 292,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximalstrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Voltage_AR4100",
+            "Length": 0,
+            "Name": "Voltage AR4100",
+            "Profile": "ABL.VOLTAGE",
+            "ReadAddress": 293,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung am AR4100"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "Product_number",
+            "Length": 0,
+            "Name": "Product number",
+            "Profile": "ABL.PRODUCT",
+            "ReadAddress": 12288,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produktnummer"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "Current_L1",
+            "Length": 0,
+            "Name": "Current L1",
+            "Profile": "ABL.CURRENT",
+            "ReadAddress": 12289,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "Current_L2",
+            "Length": 0,
+            "Name": "Current L2",
+            "Profile": "ABL.CURRENT",
+            "ReadAddress": 12291,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "Current_L3",
+            "Length": 0,
+            "Name": "Current L3",
+            "Profile": "ABL.CURRENT",
+            "ReadAddress": 12293,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "Voltage_L1",
+            "Length": 0,
+            "Name": "Voltage L1",
+            "Profile": "ABL.VOLTAGE",
+            "ReadAddress": 12295,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "Voltage_L2",
+            "Length": 0,
+            "Name": "Voltage L2",
+            "Profile": "ABL.VOLTAGE",
+            "ReadAddress": 12297,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "Voltage_L3",
+            "Length": 0,
+            "Name": "Voltage L3",
+            "Profile": "ABL.VOLTAGE",
+            "ReadAddress": 12299,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "Active_Power",
+            "Length": 0,
+            "Name": "Active power",
+            "Profile": "ABL.ACTIVE_POWER",
+            "ReadAddress": 12301,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.01,
+            "Ident": "Meter_active_energy",
+            "Length": 0,
+            "Name": "Meter active energy",
+            "Profile": "ABL.ACTIVE_ENERGY",
+            "ReadAddress": 12303,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zählerstand Wirkenergie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "Status_outlet",
+            "Length": 0,
+            "Name": "Status outlet",
+            "Profile": "ABL.STATUS_OUTLET",
+            "ReadAddress": 12337,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Status Outlet"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "EMS_max_current_outlet",
+            "Length": 0,
+            "Name": "EMS max current outlet",
+            "Profile": "ABL.CURRENT",
+            "ReadAddress": 12338,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EMS maximaler Strom Outlet"
+                }
+            ],
+            "WriteAddress": 12338,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Max__current_EV",
+            "Length": 0,
+            "Name": "Max. current EV",
+            "Profile": "ABL.CURRENT",
+            "ReadAddress": 12339,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Max. Strom EV"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "Profiles": {
+        "ABL.ACTIVE_ENERGY": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "ABL.ACTIVE_POWER": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " kW",
+            "Type": 2
+        },
+        "ABL.CURRENT": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 50.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "ABL.NODE_TYPE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Server",
+                    "Value": 0.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Notebook",
+            "MaxValue": 3.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.PRODUCT": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standalone",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "%d",
+                    "Value": 2.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Notebook",
+            "MaxValue": 32.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.STATUS_OUTLET": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Status unbekannt",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A0 - Outlet geblockt, EV wird erkannt",
+                    "Value": 160.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A1 - Outlet wartet auf EV",
+                    "Value": 161.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A2 - Outlet reserviert",
+                    "Value": 162.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B0 - EV erkannt, Authentifizierung gescheitert",
+                    "Value": 176.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B1 - EV erkannt, Authentifizierung",
+                    "Value": 177.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B2 - Outlet kann Energie für Ladung bereitstellen",
+                    "Value": 178.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B3 - EV hat Ladung beendet oder unterbrochen",
+                    "Value": 179.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "C2 - Outlet stellt Energie für Ladung bereit",
+                    "Value": 194.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "E0 - Outlet geblockt, EV wird nicht erkannt",
+                    "Value": 224.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "E2 - Outlet im Bootvorgang",
+                    "Value": 225.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "F - Fehler",
+                    "Value": 240.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Menu",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.TYP_CONTROLLER": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "ESP32",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SBC",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Notebook",
+            "MaxValue": 3.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.VOLTAGE": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 500.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " V",
+            "Type": 2
+        },
+        "ABL.POWER_TARGET_1PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 3680.0,
+            "MinValue": 1380.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "ABL.POWER_TARGET_3PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 11040.0,
+            "MinValue": 4140.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_1PHASED",
+            "Name": "Power, 1-phased configuration (Target)",
+            "Profile": "ABL.POWER_TARGET_1PHASED",
+            "ReadAction": "return $VALUES[\"EMS_max_current_outlet\"]*230*1;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 1-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"EMS_max_current_outlet\" => $VALUE/230/1\n];"
+        },
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_3PHASED",
+            "Name": "Power, 3-phased configuration (Target)",
+            "Profile": "ABL.POWER_TARGET_3PHASED",
+            "ReadAction": "return $VALUES[\"EMS_max_current_outlet\"]*230*3;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 3-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"EMS_max_current_outlet\" => $VALUE/230/3\n];"
+        }
+    ]
+}

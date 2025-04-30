@@ -1,0 +1,13 @@
+{
+    "vendor": "Keba",
+    "ident": "keba",
+    "devices": [
+        {
+            "ident": "p90",
+            "name": "P 90",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "kebap30modbus_v2.json",
+            "configurationType": "modbus-tcp"
+        }
+    ]
+}

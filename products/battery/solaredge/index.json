@@ -1,0 +1,32 @@
+{
+    "vendor": "SolarEdge",
+    "ident": "solaredge",
+    "devices": [
+        {
+            "ident": "homebattery48v",
+            "name": "Home Batterie",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "homebattery48.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": "*A_7_3_57732",
+                        "Invert": false,
+                        "Name": "$DeviceName",
+                        "SecondaryVariableID": 1,
+                        "Type": "storage",
+                        "VariableConfigType": 0,
+                        "VariableID": "*A_7_3_57716"
+                    }
+                }
+            },
+            "logging": {
+                "A_7_3_57732": 0,
+                "A_7_3_57716": 0
+            }
+        }
+    ]
+}
