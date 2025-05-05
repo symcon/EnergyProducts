@@ -19,7 +19,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
-                        "VariableID": "Real_Power_Sum"
+                        "VariableID": "*Real_Power_Sum"
                     }
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
@@ -61,7 +61,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
-                        "VariableID": "Real_Power_Sum"
+                        "VariableID": "*Real_Power_Sum"
                     }
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
@@ -99,7 +99,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
-                        "VariableID": "Real_Power_Sum"
+                        "VariableID": "*Real_Power_Sum"
                     }
                 }
             },
@@ -137,7 +137,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
-                        "VariableID": "Real_Power_Sum"
+                        "VariableID": "*Real_Power_Sum"
                     }
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
@@ -175,7 +175,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
-                        "VariableID": "Real_Power_Sum"
+                        "VariableID": "*Real_Power_Sum"
                     }
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {

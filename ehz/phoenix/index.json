@@ -19,7 +19,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "grid",
                         "VariableConfigType": 0,
-                        "VariableID": "Active_Power_Sum_100"
+                        "VariableID": "*Active_Power_Sum_100"
                     }
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {

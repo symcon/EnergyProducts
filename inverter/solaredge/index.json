@@ -19,7 +19,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "I_AC_Power_calculated"
+                        "VariableID": "*I_AC_Power_calculated"
                     }
                 }
             },
@@ -44,7 +44,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "I_AC_Power_calculated"
+                        "VariableID": "*I_AC_Power_calculated"
                     }
                 }
             },

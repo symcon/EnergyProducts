@@ -19,7 +19,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
-                        "VariableID": "Active_Power"
+                        "VariableID": "*Active_Power"
                     }
                 }
             }

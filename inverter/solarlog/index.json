@@ -19,7 +19,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "A_3_4_3502"
+                        "VariableID": "*A_3_4_3502"
                     }
                 }
             }
@@ -41,7 +41,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "A_3_4_3502"
+                        "VariableID": "*A_3_4_3502"
                     }
                 }
             }
@@ -63,7 +63,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "A_3_4_3502"
+                        "VariableID": "*A_3_4_3502"
                     }
                 }
             }
@@ -85,7 +85,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "A_3_4_3502"
+                        "VariableID": "*A_3_4_3502"
                     }
                 }
             }
@@ -107,7 +107,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "A_3_4_3502"
+                        "VariableID": "*A_3_4_3502"
                     }
                 }
             }
@@ -129,7 +129,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "A_3_4_3502"
+                        "VariableID": "*A_3_4_3502"
                     }
                 }
             }
@@ -151,7 +151,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "A_3_4_3502"
+                        "VariableID": "*A_3_4_3502"
                     }
                 }
             }
@@ -173,7 +173,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "solar",
                         "VariableConfigType": 0,
-                        "VariableID": "A_3_4_3502"
+                        "VariableID": "*A_3_4_3502"
                     }
                 }
             }
