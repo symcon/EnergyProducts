@@ -15,7 +15,7 @@
                         "Grouped": false,
                         "InfoVariableID": "*A_7_3_57732",
                         "Invert": false,
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "SecondaryVariableID": 1,
                         "Type": "storage",
                         "VariableConfigType": 0,

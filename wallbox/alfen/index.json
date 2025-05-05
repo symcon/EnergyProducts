@@ -15,7 +15,7 @@
                         "Grouped": false,
                         "InfoVariableID": 1,
                         "Invert": false,
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
@@ -24,17 +24,13 @@
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
                     "EVs": {
-                        "VariableID": {
-                            "~Phases": {
-                                "1": "POWER_TARGET_1PHASED",
-                                "3": "POWER_TARGET_3PHASED"
-                            }
-                        },
+                        "VariableID": "*Modbus_Slave_Max_Current",
+                        "Unit": 1,
                         "Phases": "~Phases",
                         "Switching": false,
                         "MinChargingCurrent": 6,
                         "MaxChargingCurrent": "~MaxChargingCurrent",
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "Delay": 60,
                         "Condition": "[]",
                         "SoC": 1,
@@ -61,7 +57,7 @@
                         "Grouped": false,
                         "InfoVariableID": 1,
                         "Invert": false,
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
@@ -70,17 +66,13 @@
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
                     "EVs": {
-                        "VariableID": {
-                            "~Phases": {
-                                "1": "POWER_TARGET_1PHASED",
-                                "3": "POWER_TARGET_3PHASED"
-                            }
-                        },
+                        "VariableID": "*Modbus_Slave_Max_Current",
+                        "Unit": 1,
                         "Phases": "~Phases",
                         "Switching": false,
                         "MinChargingCurrent": 6,
                         "MaxChargingCurrent": "~MaxChargingCurrent",
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "Delay": 60,
                         "Condition": "[]",
                         "SoC": 1,
@@ -103,7 +95,7 @@
                         "Grouped": false,
                         "InfoVariableID": 1,
                         "Invert": false,
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
@@ -113,17 +105,13 @@
             },
             "{2E863560-5434-7166-C3F6-111D5D471A43}": {
                 "EVs": {
-                    "VariableID": {
-                        "~Phases": {
-                            "1": "POWER_TARGET_1PHASED",
-                            "3": "POWER_TARGET_3PHASED"
-                        }
-                    },
+                    "VariableID": "*Modbus_Slave_Max_Current",
+                    "Unit": 1,
                     "Phases": "~Phases",
                     "Switching": false,
                     "MinChargingCurrent": 6,
                     "MaxChargingCurrent": "~MaxChargingCurrent",
-                    "Name": "$DeviceName",
+                    "Name": "~Name",
                     "Delay": 60,
                     "Condition": "[]",
                     "SoC": 1,
@@ -145,7 +133,7 @@
                         "Grouped": false,
                         "InfoVariableID": 1,
                         "Invert": false,
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
@@ -154,17 +142,13 @@
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
                     "EVs": {
-                        "VariableID": {
-                            "~Phases": {
-                                "1": "POWER_TARGET_1PHASED",
-                                "3": "POWER_TARGET_3PHASED"
-                            }
-                        },
+                        "VariableID": "*Modbus_Slave_Max_Current",
+                        "Unit": 1,
                         "Phases": "~Phases",
                         "Switching": false,
                         "MinChargingCurrent": 6,
                         "MaxChargingCurrent": "~MaxChargingCurrent",
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "Delay": 60,
                         "Condition": "[]",
                         "SoC": 1,
@@ -187,7 +171,7 @@
                         "Grouped": false,
                         "InfoVariableID": 1,
                         "Invert": false,
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
@@ -196,17 +180,13 @@
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
                     "EVs": {
-                        "VariableID": {
-                            "~Phases": {
-                                "1": "POWER_TARGET_1PHASED",
-                                "3": "POWER_TARGET_3PHASED"
-                            }
-                        },
+                        "VariableID": "*Modbus_Slave_Max_Current",
+                        "Unit": 1,
                         "Phases": "~Phases",
                         "Switching": false,
                         "MinChargingCurrent": 6,
                         "MaxChargingCurrent": "~MaxChargingCurrent",
-                        "Name": "$DeviceName",
+                        "Name": "~Name",
                         "Delay": 60,
                         "Condition": "[]",
                         "SoC": 1,
