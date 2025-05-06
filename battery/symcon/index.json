@@ -7,6 +7,7 @@
             "name": "Battery Storage (Simulation)",
             "guid": "{92CC7539-5F38-4A34-14F7-F56E39575A9A}",
             "bundleId": "de.symcon.virtualdevices",
+            "configurationType": "default",
             "moduleConfiguration": {
                 "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
                     "Config": {
