@@ -1,6 +1,6 @@
 {
     "vendor": "Symcon",
-    "ident": "symcon-battery",
+    "ident": "symcon",
     "devices": [
         {
             "ident": "battery-storage-simulation",

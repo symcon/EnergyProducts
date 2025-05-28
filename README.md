@@ -1,18 +1,18 @@
 # Product Configuraiton
 ## index.json
 
-|key | value|
-|-|-|
-|vendor| The vendors name|
-|ident| the ident of the vendor. Must be a valid directory/filename
-|devices| list of the vendors devices|
+| key     | value                                                                                                               |
+|---------|---------------------------------------------------------------------------------------------------------------------| 
+| vendor  | The vendors name                                                                                                    |
+| ident   | the ident of the vendor. Must be a valid directory/filename and the name of the directory the index.json file is in |
+| devices | list of the vendors devices                                                                                         |
 
 ### Device
-|key | value|
-|-|-|
-|vendor| The vendors name|
-|ident| the ident of the vendor. Must be a valid directory/filename
-|moduleConfiguration| guid -> object with property names as keys and property values as values
+| key                 | value                                                                                                               |
+|---------------------|---------------------------------------------------------------------------------------------------------------------|
+| vendor              | The vendors name                                                                                                    |
+| ident               | the ident of the vendor. Must be a valid directory/filename                                                         |
+| moduleConfiguration | guid -> object with property names as keys and property values as values                                            |
 
 #### moduleConfiguration
 ##### Lists
