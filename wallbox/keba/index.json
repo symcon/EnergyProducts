@@ -3,6 +3,36 @@
     "ident": "keba",
     "devices": [
         {
+            "ident": "p30",
+            "name": "P 30",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "kebap30modbus_v2.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EVs": {
+                        "Name": "~Name",
+                        "Unit": 1,
+                        "Phases": 3,
+                        "PowerPerPhase": false,
+                        "Switching": "~Switching",
+                        "SwitchingVariableSinglePhaseValue": "0",
+                        "SwitchingVariableMultiPhaseValue": "0",
+                        "MinChargingCurrent": 6,
+                        "MaxChargingCurrent": 15,
+                        "Delay": 20,
+                        "Capacity": "~Capacity",
+                        "EnergyPerKm": "~EnergyPerKm",
+                        "SoC": "~SoC",
+                        "VariableID": "*set_charging_current",
+                        "OnOffVariableID": 1,
+                        "SwitchingVariableID": 1,
+                        "CurrentUsageVariableID": "*active_power"
+                    }
+                }
+            }
+        },
+        {
             "ident": "p90",
             "name": "P 90",
             "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",

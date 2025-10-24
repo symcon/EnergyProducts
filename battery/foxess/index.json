@@ -1,0 +1,29 @@
+{
+    "vendor": "Foxess",
+    "ident": "foxess",
+    "devices": [
+        {
+            "ident": "ecs2900",
+            "name": "Foxess ECS 2900",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "Batteries": {
+                        "Name": "~Name",
+                        "Active": false,
+                        "IndividualDischargeVariable": true,
+                        "Invert": 1,
+                        "Usage": "~Usage",
+                        "CurrentUsageInvert": -1,
+                        "Capacity": "~Capacity",
+                        "VariableID": 1,
+                        "CurrentUsageVariableID": "*Discharge",
+                        "DischargeVariableID": 1,
+                        "StatusVariableID": 1,
+                        "LevelVariableID": "*SoC"
+                    }
+                }
+            }
+        }
+    ]
+}
