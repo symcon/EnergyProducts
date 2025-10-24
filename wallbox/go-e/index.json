@@ -1,0 +1,40 @@
+{
+    "vendor": "go-e",
+    "ident": "goE",
+    "devices": [
+        {
+            "name": "goECharger HW Rev v2",
+            "ident": "chargerHWrevv2",
+            "guid": "{B4624A42-F80A-4975-B692-7FB4D06CC805}",
+            "bundleId": "coyote.goecharger",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EVs": {
+                        "VariableID": "*availableAMP",
+                        "Unit": 1,
+                        "Phases": 3,
+                        "Switching": true,
+                        "MinChargingCurrent": 6,
+                        "MaxChargingCurrent": 16,
+                        "CurrentUsageVariableID": 1,
+                        "Name": "~Name",
+                        "Condition": "[]",
+                        "SoC": "~SoC",
+                        "SwitchingVariableID": "*singlePhaseCharging",
+                        "SwitchingVariableSinglePhaseValue": "true",
+                        "SwitchingVariableMultiPhaseValue": "false",
+                        "OnOffVariableID": 1,
+                        "PowerPerPhase": true,
+                        "EnergyPerKm": "~EnergyPerKm",
+                        "Capicity": "~Capacity"
+                    }
+                }
+            }
+        }
+    ],
+    "locale": {
+        "de": {
+            "E-Car (Simulation)": "E-Auto (Simulation)"
+        }
+    }
+}
