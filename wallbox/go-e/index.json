@@ -26,7 +26,8 @@
                         "OnOffVariableID": 1,
                         "PowerPerPhase": true,
                         "EnergyPerKm": "~EnergyPerKm",
-                        "Capicity": "~Capacity"
+                        "Capicity": "~Capacity",
+                        "Delay": "~Delay"
                     }
                 }
             }
