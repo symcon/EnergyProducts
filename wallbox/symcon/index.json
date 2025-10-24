@@ -1,12 +1,13 @@
 {
     "vendor": "Symcon",
-    "ident": "symcon-ev",
+    "ident": "symcon",
     "devices": [
         {
             "name": "E-Car (Simulation)",
             "ident": "ev-simulation",
             "guid": "{6BF11B43-77F7-8ACE-DF27-E5921360F7ED}",
             "bundleId": "de.symcon.virtualdevices",
+            "configurationType": "default",
             "moduleConfiguration": {
                 "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
                     "Config": {
