@@ -23,7 +23,7 @@
                         "SwitchingVariableID": "*singlePhaseCharging",
                         "SwitchingVariableSinglePhaseValue": "true",
                         "SwitchingVariableMultiPhaseValue": "false",
-                        "OnOffVariableID": 1,
+                        "OnOffVariableID": "*accessState",
                         "PowerPerPhase": true,
                         "EnergyPerKm": "~EnergyPerKm",
                         "Capicity": "~Capacity",
