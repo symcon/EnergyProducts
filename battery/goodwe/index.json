@@ -1,0 +1,36 @@
+{
+    "vendor": "Goodwe",
+    "ident": "goodwe",
+    "devices": [
+        {
+            "ident": "energy_storage",
+            "name": "Energy Storage",
+            "guid": "{D1086D5A-8D52-4E19-AAAD-EFADC81633BD}",
+            "bundleId": "goodwe.symcon",
+            "configurationType": "default",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "Batteries": {
+                        "Name": "~Name",
+                        "Active": false,
+                        "IndividualDischargeVariable": false,
+                        "Invert": 1,
+                        "Usage": "~Usage",
+                        "CurrentUsageInvert": -1,
+                        "Capacity": "~Capacity",
+                        "VariableID": 1,
+                        "CurrentUsageVariableID": "*Addr35182",
+                        "DischargeVariableID": 1,
+                        "StatusVariableID": 1,
+                        "LevelVariableID": "*Addr47908"
+                    }
+                }
+            }
+        }
+    ],
+    "locale": {
+        "de": {
+            "Energy Storage": "Energiespeicher"
+        }
+    }
+}
