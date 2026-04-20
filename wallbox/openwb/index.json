@@ -1,0 +1,34 @@
+{
+    "vendor": "openWB",
+    "ident": "openwb",
+    "devices": [
+        {
+            "ident": "series2",
+            "name": "series2",
+            "guid": "{0AC7C3C0-EE51-C325-1136-12C3FBB8A2D6}",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EVs": {
+                        "Name": "~Name",
+                        "Unit": 0,
+                        "Phases": 3,
+                        "PowerPerPhase": false,
+                        "Switching": true,
+                        "SwitchingVariableSinglePhaseValue": "1",
+                        "SwitchingVariableMultiPhaseValue": "3",
+                        "MinChargingCurrent": "§MinCurrentPerPhase",
+                        "MaxChargingCurrent": "§MaxCurrentPerPhase",
+                        "Delay": "~Delay",
+                        "Capacity": "~Capacity",
+                        "EnergyPerKm": "~EnergyPerKm",
+                        "VariableID": "*SetChargePower",
+                        "OnOffVariableID": "*SetChargePointLock",
+                        "SwitchingVariableID": 1,
+                        "CurrentUsageVariableID": "*Power",
+                        "SoC": "*SoC"
+                    }
+                }
+            }
+        }
+    ]
+}
