@@ -1726,7 +1726,7 @@
             "WriteFunctionCode": 16
         },
         {
-            "Active": false,
+            "Active": true,
             "ByteOrder": -1,
             "DataType": 7,
             "Factor": 0,
