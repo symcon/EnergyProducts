@@ -3,8 +3,62 @@
     "ident": "weishaupt",
     "devices": [
         {
-            "ident": "wwp",
-            "name": "WWP/WAB/WBB/WSB/WGB",
+            "ident": "aeroblock_wab",
+            "name": "Aeroblock (WAB)",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "weishaupt-wem.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "Consumers": {
+                        "Name": "~Name",
+                        "Usage": "~Usage",
+                        "VariableID": "*A_2_3_40002",
+                        "CurrentUsageVariableID": 1
+                    }
+                }
+            },
+            "logging": {}
+        },
+        {
+            "ident": "biblock_WBB",
+            "name": "Biblock (WBB)",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "weishaupt-wem.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "Consumers": {
+                        "Name": "~Name",
+                        "Usage": "~Usage",
+                        "VariableID": "*A_2_3_40002",
+                        "CurrentUsageVariableID": 1
+                    }
+                }
+            },
+            "logging": {}
+        },
+        {
+            "ident": "splitblock_wsb",
+            "name": "Splitblock (WSB)",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "weishaupt-wem.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "Consumers": {
+                        "Name": "~Name",
+                        "Usage": "~Usage",
+                        "VariableID": "*A_2_3_40002",
+                        "CurrentUsageVariableID": 1
+                    }
+                }
+            },
+            "logging": {}
+        },
+        {
+            "ident": "geoblock_wgb",
+            "name": "Geoblock (WGB)",
             "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
             "template": "weishaupt-wem.json",
             "configurationType": "modbus-tcp",
