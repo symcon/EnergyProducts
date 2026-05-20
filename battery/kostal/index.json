@@ -1,0 +1,15 @@
+{
+    "vendor": "Kostal",
+    "ident": "kostal",
+    "devices": [
+        {
+            "ident": "plenticoreplusgen1",
+            "name": "Plenticore Plus",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "kostalplenticore_v1.9.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {},
+            "logging": {}
+        }
+    ]
+}
