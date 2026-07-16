@@ -19,20 +19,27 @@
                     }
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
-                                    "Batteries": {
-                    "Name": "~Name",
-                    "Active": true,
-                    "IndividualDischargeVariable": false,
-                    "Invert": -1,
-                    "Usage": "~Usage",
-                    "CurrentUsageInvert": -1,
-                    "Capacity": "~Capacity",
-                    "VariableID": "*A_6_3_30258",
-                    "CurrentUsageVariableID": "*Verbrauch",
-                    "DischargeVariableID": 1,
-                    "StatusVariableID": 1,
-                    "LevelVariableID": "*A_2_3_30254"
-                }
+                    "Meters": {
+                        "SourceID": "*Verbrauch",
+                        "SourceMode": "relative",
+                        "IndividualDeficitVariable": false,
+                        "SourceInvert": 1,
+                        "DeficitID": 1
+                    },
+                    "Batteries": {
+                        "Name": "~Name",
+                        "Active": true,
+                        "IndividualDischargeVariable": false,
+                        "Invert": -1,
+                        "Usage": "~Usage",
+                        "CurrentUsageInvert": -1,
+                        "Capacity": "~Capacity",
+                        "VariableID": "*A_6_3_30258",
+                        "CurrentUsageVariableID": "*Verbrauch",
+                        "DischargeVariableID": 1,
+                        "StatusVariableID": 1,
+                        "LevelVariableID": "*A_2_3_30254"
+                    }
                 }
             }
         }
