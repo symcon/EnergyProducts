@@ -21,6 +21,22 @@
                         "VariableConfigType": 0,
                         "VariableID": "*A_7_3_57716"
                     }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "Batteries": {
+                        "Name": "~Name",
+                        "Active": true,
+                        "IndividualDischargeVariable": true,
+                        "Invert": 1,
+                        "Usage": "~Usage",
+                        "CurrentUsageInvert": -1,
+                        "Capacity": "~Capacity",
+                        "VariableID": "*A_7_3_57668",
+                        "CurrentUsageVariableID": "*A_7_3_57716",
+                        "DischargeVariableID": "*A_7_3_57670",
+                        "StatusVariableID": 1,
+                        "LevelVariableID": "*A_7_3_57732"
+                    }
                 }
             },
             "logging": {
