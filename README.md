@@ -1,4 +1,4 @@
-# Product Configuraiton
+# Product Configuration
 ## index.json
 
 | key     | value                                                                                                               |
