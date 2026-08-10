@@ -3,16 +3,16 @@
 ## Batteries
 Template                | Supports Energy Manager | Supports Energy Distribution | Source
 ----------------------- | ----------------------- | ---------------------------- | -----------
-Kostal Plenticore Plus  | yes                     | no                           | Initial Set
+Kostal Plenticore Plus  | yes                     | yes                          | Initial Set
 SolarEdge Home Batterie | yes                     | yes                          | Initial Set
 
 ## Consumers
 Template                   | Supports Energy Manager | Supports Energy Distribution | Source
 -------------------------- | ----------------------- | ---------------------------- | -----------
-Weishaupt Aeroblock (WAB)  | yes                     | no                           | Initial Set
-Weishaupt Biblock (WBB)    | yes                     | no                           | Initial Set
-Weishaupt Splitblock (WSB) | yes                     | no                           | Initial Set
-Weishaupt Geoblock (WGB)   | yes                     | no                           | Initial Set
+Weishaupt Aeroblock (WAB)  | yes                     | no (no consumption variable) | Initial Set
+Weishaupt Biblock (WBB)    | yes                     | no (no consumption variable) | Initial Set
+Weishaupt Splitblock (WSB) | yes                     | no (no consumption variable) | Initial Set
+Weishaupt Geoblock (WGB)   | yes                     | no (no consumption variable) | Initial Set
 
 ## eHZ
 Template              | Supports Energy Manager | Supports Energy Distribution | Source
