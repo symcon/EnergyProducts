@@ -47,7 +47,7 @@ Template                          | Supports Energy Manager | Supports Energy Di
 ABL eMH4                          | yes                     | yes                          | Initial Set
 Alfen Eve Single S-line           | yes                     | yes                          | Initial Set
 Alfen Eve Single Pro-line         | yes                     | yes                          | Initial Set
-Alfen Eve Double Pro-line         | no                      | yes                          | Initial Set
+Alfen Eve Double Pro-line         | yes                     | yes                          | Initial Set
 Alfen Eve Twin 4/5XL              | yes                     | yes                          | Initial Set
 Alfen Smart Charging Network      | yes                     | yes                          | Initial Set
 Keba P 30                         | yes                     | no                           | Initial Set
