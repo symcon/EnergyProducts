@@ -6,7 +6,7 @@ Template                | Supports Energy Manager | Supports Energy Distribution
 Kostal Plenticore Plus  | yes                     | yes                          | Initial Set
 SolarEdge Home Batterie | yes                     | yes                          | Initial Set
 
-## Consumers
+## Thermal Loads
 Template                   | Supports Energy Manager | Supports Energy Distribution | Source
 -------------------------- | ----------------------- | ---------------------------- | -----------
 Weishaupt Aeroblock (WAB)  | yes                     | no (no consumption variable) | Initial Set
