@@ -50,10 +50,10 @@ Alfen Eve Single Pro-line         | yes                     | yes               
 Alfen Eve Double Pro-line         | yes                     | yes                          | Initial Set
 Alfen Eve Twin 4/5XL              | yes                     | yes                          | Initial Set
 Alfen Smart Charging Network      | yes                     | yes                          | Initial Set
-Keba P 30                         | yes                     | no                           | Initial Set
-Mennekes AMEDIO Professional      | yes                     | no                           | Initial Set
-Mennekes AMTRON Charge Control 11 | yes                     | no                           | Initial Set
-Mennekes AMTRON Professional      | yes                     | no                           | Initial Set
+Keba P 30                         | yes                     | yes                          | Initial Set
+Mennekes AMEDIO Professional      | yes                     | yes                          | Initial Set
+Mennekes AMTRON Charge Control 11 | yes                     | yes                          | Initial Set
+Mennekes AMTRON Professional      | yes                     | yes                          | Initial Set
 
 # Other Templates
 
