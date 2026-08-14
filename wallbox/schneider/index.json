@@ -1,0 +1,30 @@
+{
+    "vendor": "Schneider",
+    "ident": "schneider",
+    "devices": [
+        {
+            "name": "EVlink Wallbox G4 Smart",
+            "ident": "evlink_wallbox_g4_smart",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "Schneider Wallbox-EnergieManagement Addr 300-400 mit Einheiten.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EVs": {
+                        "VariableID": "*A_2_3_309",
+                        "Unit": 1,
+                        "Phases": "~Phases",
+                        "Switching": true,
+                        "MinChargingCurrent": "~MinChargingCurrent",
+                        "MaxChargingCurrent": "~MaxChargingCurrent",
+                        "Name": "~Name",
+                        "Delay": 60,
+                        "SoC": 1,
+                        "SwitchingVariableID": 1,
+                        "OnOffVariableID": 1
+                    }
+                }
+            }
+        }
+    ]
+}
