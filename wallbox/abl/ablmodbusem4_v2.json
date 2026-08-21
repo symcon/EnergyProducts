@@ -242,6 +242,7 @@
         },
         {
             "Active": true,
+            "ByteOrder": 3,
             "DataType": 3,
             "Factor": 0.1,
             "Ident": "Current_L1",
@@ -262,6 +263,7 @@
         },
         {
             "Active": true,
+            "ByteOrder": 3,
             "DataType": 3,
             "Factor": 0.1,
             "Ident": "Current_L2",
@@ -282,6 +284,7 @@
         },
         {
             "Active": true,
+            "ByteOrder": 3,
             "DataType": 3,
             "Factor": 0.1,
             "Ident": "Current_L3",
@@ -302,6 +305,7 @@
         },
         {
             "Active": true,
+            "ByteOrder": 3,
             "DataType": 3,
             "Factor": 0.1,
             "Ident": "Voltage_L1",
@@ -322,6 +326,7 @@
         },
         {
             "Active": true,
+            "ByteOrder": 3,
             "DataType": 3,
             "Factor": 0.1,
             "Ident": "Voltage_L2",
@@ -342,6 +347,7 @@
         },
         {
             "Active": true,
+            "ByteOrder": 3,
             "DataType": 3,
             "Factor": 0.1,
             "Ident": "Voltage_L3",
@@ -362,6 +368,7 @@
         },
         {
             "Active": true,
+            "ByteOrder": 3,
             "DataType": 3,
             "Factor": 0.001,
             "Ident": "Active_Power",
@@ -382,6 +389,21 @@
         },
         {
             "Active": true,
+            "ByteOrder": 3,
+            "DataType": 3,
+            "Factor": 0,
+            "Length": 0,
+            "Name": "Active power (Watt)",
+            "Profile": "Watt.I",
+            "ReadAddress": 12301,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
             "DataType": 3,
             "Factor": 0.01,
             "Ident": "Meter_active_energy",
@@ -461,6 +483,7 @@
             "WriteFunctionCode": 0
         }
     ],
+    "ByteOrder": 0,
     "Profiles": {
         "ABL.ACTIVE_ENERGY": {
             "Associations": [],
@@ -656,62 +679,22 @@
             "Suffix": " V",
             "Type": 2
         },
-        "ABL.POWER_TARGET_1PHASED": {
+        "Watt.I": {
             "Associations": [],
             "Digits": 0,
-            "Icon": "ArrowRight",
-            "MaxValue": 3680.0,
-            "MinValue": 1380.0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
             "Prefix": "",
-            "StepSize": 10.0,
-            "Suffix": " W",
-            "Type": 1
-        },
-        "ABL.POWER_TARGET_3PHASED": {
-            "Associations": [],
-            "Digits": 0,
-            "Icon": "ArrowRight",
-            "MaxValue": 11040.0,
-            "MinValue": 4140.0,
-            "Prefix": "",
-            "StepSize": 10.0,
+            "StepSize": 0.0,
             "Suffix": " W",
             "Type": 1
         }
     },
     "Requests": {
-        "Interval": 5000
+        "DataBlocks": [],
+        "Interval": 5000,
+        "Type": 0
     },
-    "VirtualAddresses": [
-        {
-            "Active": true,
-            "Ident": "POWER_TARGET_1PHASED",
-            "Name": "Power, 1-phased configuration (Target)",
-            "Profile": "ABL.POWER_TARGET_1PHASED",
-            "ReadAction": "return $VALUES[\"EMS_max_current_outlet\"]*230*1;",
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Leistung, 1-phasig angeschlossen (Soll)"
-                }
-            ],
-            "VariableType": 1,
-            "WriteAction": "return [\n    \"EMS_max_current_outlet\" => $VALUE/230/1\n];"
-        },
-        {
-            "Active": true,
-            "Ident": "POWER_TARGET_3PHASED",
-            "Name": "Power, 3-phased configuration (Target)",
-            "Profile": "ABL.POWER_TARGET_3PHASED",
-            "ReadAction": "return $VALUES[\"EMS_max_current_outlet\"]*230*3;",
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Leistung, 3-phasig angeschlossen (Soll)"
-                }
-            ],
-            "VariableType": 1,
-            "WriteAction": "return [\n    \"EMS_max_current_outlet\" => $VALUE/230/3\n];"
-        }
-    ]
+    "VirtualAddresses": []
 }

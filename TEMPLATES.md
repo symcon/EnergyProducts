@@ -9,6 +9,7 @@ SMA Sunny Boy Storage 3.7 | no (passive with two separate charge/discharge) | ye
 SMA Sunny Boy Storage 5.0 | no (passive with two separate charge/discharge) | yes                             | no                      | https://community.symcon.de/t/modbus-vorlage-sma-sunny-boy-storage-fw-4-04-03-r-country-data-set-spec-of-year-2018/137432
 SMA Sunny Boy Storage 6.0 | no (passive with two separate charge/discharge) | yes                             | no                      | https://community.symcon.de/t/modbus-vorlage-sma-sunny-boy-storage-fw-4-04-03-r-country-data-set-spec-of-year-2018/137432
 SAX Power Home (Plus)     | no (do not understand template)                 | no (do not understand template) | no                      | https://community.symcon.de/t/modbus-vorlage-sax-power-home-plus/137646
+PACE BMS                  | no (no percentual current, also A instead of W) | no (current in Ampere)          | no                      | https://community.symcon.de/t/modbus-vorlage-pace-gobel-power-bms/135897
 
 ## Thermal Loads
 Template                      | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
@@ -24,11 +25,11 @@ Finder 7M24                   | yes                     | yes                   
 Finder 7M38                   | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-finder-zaehler-7m24-7m38/136305
 
 ## eHZ
-Template              | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
---------------------- | ----------------------- | ---------------------------- | ----------------------- | -----------
-Janitza UMG           | yes                     | yes                          | no                      | Initial Set
-Phoenix EEM-EM        | yes                     | yes                          | no                      | Initial Set
-SolarEdge Smart Meter | yes                     | yes                          | no                      | Initial Set
+Template              | Supports Energy Manager        | Supports Energy Distribution | Tested with real device | Source
+--------------------- | ------------------------------ | ---------------------------- | ----------------------- | -----------
+Janitza UMG           | no (need conversion to meters) | yes                          | no                      | Initial Set
+Phoenix EEM-EM        | no (need conversion to meters) | yes                          | no                      | Initial Set
+SolarEdge Smart Meter | no (need conversion to meters) | yes                          | no                      | Initial Set
 
 ## Inverters
 Template           | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
@@ -48,6 +49,8 @@ Fronius Primo      | no                      | no                           | no
 Fronius Symo       | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
 Growatt TL3-X      | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534
 Growatt SPH BH-UP  | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534/6
+Solax X3-PRO       | no                      | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
+Solax X3-MIC       | no                      | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
 
 ## Meters
 Template               | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
@@ -59,11 +62,13 @@ Schneider iEM3155      | yes                     | yes                          
 Siemens 7KT1666        | yes                     | yes                          | no                      | https://community.symcon.de/t/siemens-7kt1666-vorlage/135766
 Fronius 5kA-3          | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-smartmeter/135832/6
 Carlos Gavazzi EM24 E1 | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-carlo-gavazzi-em24-e1/137191
+SolarEdge Meter 1      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-messgeraet-1-address-40121-40293/134888
 
 ## Wallboxes
 Template                          | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
 --------------------------------- | ----------------------- | ---------------------------- | ----------------------- | -----------
-ABL eMH4                          | yes                     | yes                          | no                      | Initial Set
+ABL eMH1                          | yes                     | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/abl/
+ABL eM4                           | yes                     | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/abl/
 Alfen Eve Single S-line           | yes                     | yes                          | no                      | Initial Set
 Alfen Eve Single Pro-line         | yes                     | yes                          | no                      | Initial Set
 Alfen Eve Double Pro-line         | yes                     | yes                          | no                      | Initial Set
@@ -74,7 +79,8 @@ Mennekes AMEDIO Professional      | yes                     | yes               
 Mennekes AMTRON Charge Control 11 | yes                     | yes                          | no                      | Initial Set
 Mennekes AMTRON Professional      | yes                     | yes                          | no                      | Initial Set
 Schneider EVlink Wallbox G4 Smart | yes                     | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-schneider-evlink-wallbox-g4-smart/136491
-ABB Terra AC                      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-abb-terra-ac-wallbox/136993 
+ABB Terra AC                      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-abb-terra-ac-wallbox/136993
+Warp Charger                      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-warp-charger-wallbox/137774
 
 # Other Templates
 

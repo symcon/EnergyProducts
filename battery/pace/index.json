@@ -1,0 +1,15 @@
+{
+    "vendor": "PACE",
+    "ident": "pace",
+    "devices": [
+        {
+            "ident": "bms",
+            "name": "BMS",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "PACE Symcon Modbus Template v1.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {},
+            "logging": {}
+        }
+    ]
+}
