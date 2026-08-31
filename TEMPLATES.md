@@ -10,7 +10,9 @@ SMA Sunny Boy Storage 5.0 | no (passive with two separate charge/discharge) | ye
 SMA Sunny Boy Storage 6.0 | no (passive with two separate charge/discharge) | yes                             | no                      | https://community.symcon.de/t/modbus-vorlage-sma-sunny-boy-storage-fw-4-04-03-r-country-data-set-spec-of-year-2018/137432
 SAX Power Home (Plus)     | no (do not understand template)                 | no (do not understand template) | no                      | https://community.symcon.de/t/modbus-vorlage-sax-power-home-plus/137646
 PACE BMS                  | no (no percentual current, also A instead of W) | no (current in Ampere)          | no                      | https://community.symcon.de/t/modbus-vorlage-pace-gobel-power-bms/135897
-Huawei Sun 2000           | yes (TODO: Included Inverter)                   | yes                             | no                      | https://community.symcon.de/t/modbus-vorlagen-huawei-pv/135450
+Marstek Venus E           | yes                                             | yes                             | no                      | https://community.symcon.de/t/modbus-template-marstek-venus-e/142046/6
+Solakon One               | no (template without units not understandable)  | no (same here)                  | no                      | https://community.symcon.de/t/modbus-vorlage-solakon-one/143329
+SolarEdge LG Resu 10H     | no (set value by W, not percentual)             | no (no Energy Manager)          | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-storedge-hv-batterie-schnittstelle-sesti-s4-lg-resu-10h-speicher/134893
 
 ## Thermal Loads
 Template                      | Supports Energy Manager              | Supports Energy Distribution | Tested with real device | Source
@@ -29,6 +31,10 @@ Maico WS 320                  | no (no on/off or percentual current) | no (no co
 Gondzik Delta 9               | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-gondzik-delta-waermepumpe/137385
 Waterkotte EcoTouch 5029 Ai   | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-waterkotte-waermepumpe/138686/8
 MyPV AC ELWA 2                | no (no idea what to switch)          | no (no idea what to switch)  | no                      | https://community.symcon.de/t/modbus-vorlage-mypv-ac-elwa-2/138454/4
+Stiebel Eltron ISG-Gateway    | no (no single template)              | no (no single template)      | no                      | https://community.symcon.de/t/modbus-vorlagen-stiebel-eltron-isg-gateway-wpm3i-regler/135879
+Stiebel Eltron WPM3i Regler   | no (no single template)              | no (no single template)      | no                      | https://community.symcon.de/t/modbus-vorlagen-stiebel-eltron-isg-gateway-wpm3i-regler/135879
+Stiebel Eltron ISG-Plus       | no (no single template)              | no (no single template)      | no                      | https://community.symcon.de/t/modbus-vorlagen-stiebel-eltron-isg-gateway-wpm3i-regler/135879
+iDM Aero/Terra/Max            | no (no on/off or percentual current) | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-idm-waermepumpen/141156
 
 ## eHZ
 Template              | Supports Energy Manager        | Supports Energy Distribution | Tested with real device | Source
@@ -38,35 +44,43 @@ Phoenix EEM-EM        | no (need conversion to meters) | yes                    
 SolarEdge Smart Meter | no (need conversion to meters) | yes                          | no                      | Initial Set
 
 ## Inverters
-Template                 | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
------------------------- | ----------------------- | ---------------------------- | ----------------------- | -----------
-SolarEdge SE 12,5K       | no                      | yes                          | no                      | Initial Set
-SolarEdge SE 25K         | no                      | yes                          | no                      | Initial Set
-Solar-Log Base           | no                      | yes                          | no                      | Initial Set
-Solar-Log 200            | no                      | yes                          | no                      | Initial Set
-Solar-Log 250            | no                      | yes                          | no                      | Initial Set
-Solar-Log 300            | no                      | yes                          | no                      | Initial Set
-Solar-Log 500            | no                      | yes                          | no                      | Initial Set
-Solar-Log 1000           | no                      | yes                          | no                      | Initial Set
-Solar-Log 1900           | no                      | yes                          | no                      | Initial Set
-Solar-Log 2000           | no                      | yes                          | no                      | Initial Set
-OpenFEMS                 | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-openfems-fenecon-heckert-speichersystem/135948
-Fronius Primo            | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
-Fronius Symo             | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
-Growatt TL3-X            | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534
-Growatt SPH BH-UP        | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534/6
-Solax X3-PRO             | no                      | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
-Solax X3-MIC             | no                      | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
-SolarEdge Inverter       | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-wechselrichter-address-40070-40107/134885, https://community.symcon.de/t/modbus-vorlage-solaredge-wr/135693
-Sofar Solar HYD-5-20 KTL | no                      | no                           | no                      | https://community.symcon.de/t/sofar-solar-hyd-5-20ktl/139079
-Sungrow SH10RT           | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-sungrow-wr-sh10rt/136446
-Sungrow SBR128           | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-sungrow-wr-sh10rt/136446
-M-TEC Hybrid             | no                      | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-m-tec-hybrid-wechselrichter-energy-butler/141301
+Template                 | Supports Energy Manager       | Supports Energy Distribution | Tested with real device | Source
+------------------------ | ----------------------------- | ---------------------------- | ----------------------- | -----------
+SolarEdge SE 12,5K       | no                            | yes                          | no                      | Initial Set
+SolarEdge SE 25K         | no                            | yes                          | no                      | Initial Set
+Solar-Log Base           | no                            | yes                          | no                      | Initial Set
+Solar-Log 200            | no                            | yes                          | no                      | Initial Set
+Solar-Log 250            | no                            | yes                          | no                      | Initial Set
+Solar-Log 300            | no                            | yes                          | no                      | Initial Set
+Solar-Log 500            | no                            | yes                          | no                      | Initial Set
+Solar-Log 1000           | no                            | yes                          | no                      | Initial Set
+Solar-Log 1900           | no                            | yes                          | no                      | Initial Set
+Solar-Log 2000           | no                            | yes                          | no                      | Initial Set
+OpenFEMS                 | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-openfems-fenecon-heckert-speichersystem/135948
+Fronius Primo            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
+Fronius Symo             | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
+Growatt TL3-X            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534
+Growatt SPH BH-UP        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534/6
+Solax X3-PRO             | no                            | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
+Solax X3-MIC             | no                            | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
+SolarEdge Inverter       | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-wechselrichter-address-40070-40107/134885, https://community.symcon.de/t/modbus-vorlage-solaredge-wr/135693
+Sofar Solar HYD-5-20 KTL | no                            | no                           | no                      | https://community.symcon.de/t/sofar-solar-hyd-5-20ktl/139079
+Sungrow SH10RT           | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-sungrow-wr-sh10rt/136446
+Sungrow SBR128           | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-sungrow-wr-sh10rt/136446
+M-TEC Hybrid             | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-m-tec-hybrid-wechselrichter-energy-butler/141301
+Solax X1-Boost G3        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solax-x1-boost-g3-0-g3-1-g3-2/141882
+Huawei Sun 2000          | yes (TODO: Included Inverter) | yes                          | no                      | https://community.symcon.de/t/modbus-vorlagen-huawei-pv/135450, https://community.symcon.de/t/modbus-vorlage-huawei-dtsu666-h-und-sun200-4-6ktl-l1/135275 (Vorlage umgesetzt vom 1. Link)
+Solplanet ASW            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solplanet-asw-gen-aiswei-inverter/142670
+JiKong PB                | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-jkbms-pbxx/137989
+GoodWe ET                | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-goodwe-et/137190
+Solax X3-HybridG4        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solax-x3-hybridg4/135959
+Deye Sun xxK-SG04lp3     | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-deye-sun-xxk-sg04lp3/135685/32
+SolarEdge SESTI-S4       | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-storedge-hv-batterie-schnittstelle-sesti-s4-lg-resu-10h-speicher/134893
 
 ## Meters
 Template               | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
 ---------------------- | ----------------------- | ---------------------------- | ----------------------- | -----------
-Eastron SDM72D-M       | yes                     | yes                          | no                      | Initial Set
+Eastron SDM72D-M       | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-eastron-sdm72d-m-2-stromzaehler/142099
 Eastron SDM120-M       | yes                     | yes                          | no                      | https://community.symcon.de/t/sdm120m-vorlage-v1/135768/1
 ABB A41 112-100        | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-abb-a41-112-100/135660
 Schneider iEM3155      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-schneider-electric-iem3155/135732/2
@@ -77,17 +91,21 @@ SolarEdge Meter 1      | yes                     | yes                          
 Siemens PAC2200        | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-siemens-pac2200/138337
 EMU Professional 3/75  | yes                     | yes                          | no                      | https://community.symcon.de/t/vorlage-fuer-mbs-profesional-3-75-tcp-ip/139889/6
 Janitza UMG            | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-janitza-umg/140677
+Huawei DTSU666-H       | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-huawei-dtsu666-h-und-sun200-4-6ktl-l1/135275
+Phoenix EEM-EM377      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-phoenix-eem-em377-eem-xm377/135658
+Phoenix EEM-XM377      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-phoenix-eem-em377-eem-xm377/135658
+WhattWatt Go           | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-whatwatt/143167/2
 
 ## Wallboxes
 Template                          | Supports Energy Manager     | Supports Energy Distribution | Tested with real device | Source
 --------------------------------- | --------------------------- | ---------------------------- | ----------------------- | -----------
 ABL eMH1                          | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/abl/
 ABL eM4                           | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/abl/
-Alfen Eve Single S-line           | yes                         | yes                          | no                      | Initial Set
-Alfen Eve Single Pro-line         | yes                         | yes                          | no                      | Initial Set
-Alfen Eve Double Pro-line         | yes                         | yes                          | no                      | Initial Set
-Alfen Eve Twin 4/5XL              | yes                         | yes                          | no                      | Initial Set
-Alfen Smart Charging Network      | yes                         | yes                          | no                      | Initial Set
+Alfen Eve Single S-line           | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/alfen/
+Alfen Eve Single Pro-line         | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/alfen/
+Alfen Eve Double Pro-line         | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/alfen/
+Alfen Eve Twin 4/5XL              | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/alfen/
+Alfen Smart Charging Network      | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/alfen/
 Keba P 30                         | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/keba/
 Keba P 40                         | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/keba/
 Mennekes AMEDIO Professional      | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/mennekes/geraeteliste/
@@ -102,6 +120,8 @@ Warp Charger                      | yes                         | yes           
 go-e Charger Gemini 2.0           | yes                         | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-go-e-v2/135688
 Schrack i-CHARGE CION             | yes                         | yes                          | no                      | https://community.symcon.de/t/modbus-vorlag-schrack-cion-wallbox/140375/1
 ChargeHere Zaptec Pro             | no (no switchable variable) | no (no Energy Manager)       | no                      | https://community.symcon.de/t/modbus-vorlage-chargehere-wallbox/140678
+Kathrein KWB                      | no (no target variable)     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-kathrein-kwb-wallboxen/138451
+DaheimLaden Smart PRO, ...        | no (template without units) | no (no Energy Manager)       | no                      | https://community.symcon.de/t/modbus-vorlage-daheimladen-wallbox/144085
 
 # Other Templates
 
