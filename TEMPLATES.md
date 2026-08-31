@@ -100,7 +100,7 @@ Finder 7M38            | yes                     | yes                          
 ## Wallboxes
 Template                          | Supports Energy Manager     | Supports Energy Distribution | Tested with real device | Source
 --------------------------------- | --------------------------- | ---------------------------- | ----------------------- | -----------
-ABL eMH1                          | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/abl/
+ABL eMH1                          | yes                         | no                           | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/abl/
 ABL eM4                           | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/abl/
 Alfen Eve Single S-line           | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/alfen/
 Alfen Eve Single Pro-line         | yes                         | yes                          | no                      | https://www.symcon.de/de/service/dokumentation/modulreferenz/geraete/alfen/
@@ -133,7 +133,7 @@ These are not working yet as the current version is limited to Modbus templates 
 Template                            | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
 ----------------------------------- | ----------------------- | ---------------------------- | ----------------------- | -----------
 GoodWe Energy Storage               | yes                     | no                           | no                      | Initial Set
-Foxess ECS 2900                     | yes                     | yes                          | no                      | Initial Set
+Foxess ECS 2900                     | yes                     | no                           | no                      | Initial Set
 Symcon Battery Storage (Simulation) | yes                     | yes                          | no                      | Initial Set
 Tesla Powerwall                     | no                      | yes                          | no                      | Initial Set
 Tesla Powerwall 2                   | no                      | yes                          | no                      | Initial Set
