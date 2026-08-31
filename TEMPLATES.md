@@ -23,9 +23,6 @@ Weishaupt Splitblock (WSB)    | yes                                  | no (no co
 Weishaupt Geoblock (WGB)      | yes                                  | no (no consumption variable) | no                      | Initial Set
 Mitsubishi Melcobems Mini A1M | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-mitsubishi-waermepumpe-melcobems-mini-a1m/135028
 Buderus WPM100                | no (no status variable)              | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-buderus-wpm100/135274
-Wallbe Eco 2.0                | yes                                  | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-wallbox-wallbe-eco-2-0/135458
-Finder 7M24                   | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-finder-zaehler-7m24-7m38/136305
-Finder 7M38                   | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-finder-zaehler-7m24-7m38/136305
 Lambda Heat Pump              | no (no on/off or percentual current) | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-lambda-waermepumpe/138332
 Maico WS 320                  | no (no on/off or percentual current) | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-maico-kwl-320-470-und-andere/138436
 Gondzik Delta 9               | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-gondzik-delta-waermepumpe/137385
@@ -35,13 +32,6 @@ Stiebel Eltron ISG-Gateway    | no (no single template)              | no (no si
 Stiebel Eltron WPM3i Regler   | no (no single template)              | no (no single template)      | no                      | https://community.symcon.de/t/modbus-vorlagen-stiebel-eltron-isg-gateway-wpm3i-regler/135879
 Stiebel Eltron ISG-Plus       | no (no single template)              | no (no single template)      | no                      | https://community.symcon.de/t/modbus-vorlagen-stiebel-eltron-isg-gateway-wpm3i-regler/135879
 iDM Aero/Terra/Max            | no (no on/off or percentual current) | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-idm-waermepumpen/141156
-
-## eHZ
-Template              | Supports Energy Manager        | Supports Energy Distribution | Tested with real device | Source
---------------------- | ------------------------------ | ---------------------------- | ----------------------- | -----------
-Janitza UMG           | no (need conversion to meters) | yes                          | no                      | Initial Set
-Phoenix EEM-EM        | no (need conversion to meters) | yes                          | no                      | Initial Set
-SolarEdge Smart Meter | no (need conversion to meters) | yes                          | no                      | Initial Set
 
 ## Inverters
 Template                 | Supports Energy Manager       | Supports Energy Distribution | Tested with real device | Source
@@ -86,7 +76,7 @@ ABB A41 112-100        | yes                     | yes                          
 Schneider iEM3155      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-schneider-electric-iem3155/135732/2
 Siemens 7KT1666        | yes                     | yes                          | no                      | https://community.symcon.de/t/siemens-7kt1666-vorlage/135766
 Fronius 5kA-3          | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-smartmeter/135832/6
-Carlos Gavazzi EM24 E1 | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-carlo-gavazzi-em24-e1/137191
+Carlo Gavazzi EM24 E1  | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-carlo-gavazzi-em24-e1/137191
 SolarEdge Meter 1      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-messgeraet-1-address-40121-40293/134888
 Siemens PAC2200        | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-siemens-pac2200/138337
 EMU Professional 3/75  | yes                     | yes                          | no                      | https://community.symcon.de/t/vorlage-fuer-mbs-profesional-3-75-tcp-ip/139889/6
@@ -95,6 +85,8 @@ Huawei DTSU666-H       | yes                     | yes                          
 Phoenix EEM-EM377      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-phoenix-eem-em377-eem-xm377/135658
 Phoenix EEM-XM377      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-phoenix-eem-em377-eem-xm377/135658
 WhattWatt Go           | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-whatwatt/143167/2
+Finder 7M24            | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-finder-zaehler-7m24-7m38/136305
+Finder 7M38            | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-finder-zaehler-7m24-7m38/136305
 
 ## Wallboxes
 Template                          | Supports Energy Manager     | Supports Energy Distribution | Tested with real device | Source
@@ -122,6 +114,7 @@ Schrack i-CHARGE CION             | yes                         | yes           
 ChargeHere Zaptec Pro             | no (no switchable variable) | no (no Energy Manager)       | no                      | https://community.symcon.de/t/modbus-vorlage-chargehere-wallbox/140678
 Kathrein KWB                      | no (no target variable)     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-kathrein-kwb-wallboxen/138451
 DaheimLaden Smart PRO, ...        | no (template without units) | no (no Energy Manager)       | no                      | https://community.symcon.de/t/modbus-vorlage-daheimladen-wallbox/144085
+Wallbe Eco 2.0                    | yes                         | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-wallbox-wallbe-eco-2-0/135458
 
 # Other Templates
 
