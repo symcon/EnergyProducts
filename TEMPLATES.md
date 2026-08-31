@@ -13,6 +13,10 @@ PACE BMS                  | no (no percentual current, also A instead of W) | no
 Marstek Venus E           | yes                                             | yes                             | no                      | https://community.symcon.de/t/modbus-template-marstek-venus-e/142046/6
 Solakon One               | no (template without units not understandable)  | no (same here)                  | no                      | https://community.symcon.de/t/modbus-vorlage-solakon-one/143329
 SolarEdge LG Resu 10H     | no (set value by W, not percentual)             | no (no Energy Manager)          | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-storedge-hv-batterie-schnittstelle-sesti-s4-lg-resu-10h-speicher/134893
+E3/DC S10 SE              | no (no template file yet)                       | no (no template file yet)       | no                      | Initial Set
+E3/DC S10 X               | no (no template file yet)                       | no (no template file yet)       | no                      | Initial Set
+E3/DC S10 E PRO           | no (no template file yet)                       | no (no template file yet)       | no                      | Initial Set
+E3/DC S20 X PRO           | no (no template file yet)                       | no (no template file yet)       | no                      | Initial Set
 
 ## Thermal Loads
 Template                      | Supports Energy Manager              | Supports Energy Distribution | Tested with real device | Source
@@ -25,7 +29,11 @@ Mitsubishi Melcobems Mini A1M | yes                                  | yes      
 Buderus WPM100                | no (no status variable)              | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-buderus-wpm100/135274
 Lambda Heat Pump              | no (no on/off or percentual current) | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-lambda-waermepumpe/138332
 Maico WS 320                  | no (no on/off or percentual current) | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-maico-kwl-320-470-und-andere/138436
+Maico WS 470                  | no (no on/off or percentual current) | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-maico-kwl-320-470-und-andere/138436
 Gondzik Delta 9               | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-gondzik-delta-waermepumpe/137385
+Gondzik Delta 13              | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-gondzik-delta-waermepumpe/137385
+Gondzik Delta 20              | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-gondzik-delta-waermepumpe/137385
+Gondzik Delta 25              | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-gondzik-delta-waermepumpe/137385
 Waterkotte EcoTouch 5029 Ai   | yes                                  | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-waterkotte-waermepumpe/138686/8
 MyPV AC ELWA 2                | no (no idea what to switch)          | no (no idea what to switch)  | no                      | https://community.symcon.de/t/modbus-vorlage-mypv-ac-elwa-2/138454/4
 Stiebel Eltron ISG-Gateway    | no (no single template)              | no (no single template)      | no                      | https://community.symcon.de/t/modbus-vorlagen-stiebel-eltron-isg-gateway-wpm3i-regler/135879
@@ -72,10 +80,12 @@ Template               | Supports Energy Manager | Supports Energy Distribution 
 ---------------------- | ----------------------- | ---------------------------- | ----------------------- | -----------
 Eastron SDM72D-M       | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-eastron-sdm72d-m-2-stromzaehler/142099
 Eastron SDM120-M       | yes                     | yes                          | no                      | https://community.symcon.de/t/sdm120m-vorlage-v1/135768/1
+Eastron SDM630         | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-eastron-sdm630-3-phasen/140938
 ABB A41 112-100        | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-abb-a41-112-100/135660
 Schneider iEM3155      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-schneider-electric-iem3155/135732/2
 Siemens 7KT1666        | yes                     | yes                          | no                      | https://community.symcon.de/t/siemens-7kt1666-vorlage/135766
 Fronius 5kA-3          | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-smartmeter/135832/6
+Fronius TS 65A-3       | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-smartmeter-ts-65a-3/141748
 Carlo Gavazzi EM24 E1  | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-carlo-gavazzi-em24-e1/137191
 SolarEdge Meter 1      | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-messgeraet-1-address-40121-40293/134888
 Siemens PAC2200        | yes                     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-siemens-pac2200/138337
@@ -118,10 +128,13 @@ Wallbe Eco 2.0                    | yes                         | no (no consump
 
 # Other Templates
 
+These are not working yet as the current version is limited to Modbus templates only
+
 ## Batteries
 Template                            | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
 ----------------------------------- | ----------------------- | ---------------------------- | ----------------------- | -----------
 Goodwe Energy Storage               | yes                     | no                           | no                      | Initial Set
+Foxess ECS 2900                     | yes                     | yes                          | no                      | Initial Set
 Symcon Battery Storage (Simulation) | yes                     | yes                          | no                      | Initial Set
 Tesla Powerwall                     | no                      | yes                          | no                      | Initial Set
 Tesla Powerwall 2                   | no                      | yes                          | no                      | Initial Set
