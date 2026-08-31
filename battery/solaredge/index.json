@@ -43,6 +43,82 @@
                 "A_7_3_57732": 0,
                 "A_7_3_57716": 0
             }
+        },
+        {
+            "ident": "sesti_s4",
+            "name": "SESTI-S4",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "homebattery48.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": "*A_7_3_57732",
+                        "Invert": false,
+                        "Name": "~Name",
+                        "SecondaryVariableID": 1,
+                        "Type": "storage",
+                        "VariableConfigType": 0,
+                        "VariableID": "*A_7_3_57716"
+                    }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "Batteries": {
+                        "Name": "~Name",
+                        "Active": true,
+                        "IndividualDischargeVariable": true,
+                        "Invert": 1,
+                        "Usage": "~Usage",
+                        "CurrentUsageInvert": -1,
+                        "Capacity": "~Capacity",
+                        "VariableID": "*A_7_3_57668",
+                        "CurrentUsageVariableID": "*A_7_3_57716",
+                        "DischargeVariableID": "*A_7_3_57670",
+                        "StatusVariableID": 1,
+                        "LevelVariableID": "*A_7_3_57732"
+                    }
+                }
+            }
+        },
+        {
+            "ident": "resu_10h",
+            "name": "RESU 10H",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "homebattery48.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": "*A_7_3_57732",
+                        "Invert": false,
+                        "Name": "~Name",
+                        "SecondaryVariableID": 1,
+                        "Type": "storage",
+                        "VariableConfigType": 0,
+                        "VariableID": "*A_7_3_57716"
+                    }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "Batteries": {
+                        "Name": "~Name",
+                        "Active": true,
+                        "IndividualDischargeVariable": true,
+                        "Invert": 1,
+                        "Usage": "~Usage",
+                        "CurrentUsageInvert": -1,
+                        "Capacity": "~Capacity",
+                        "VariableID": "*A_7_3_57668",
+                        "CurrentUsageVariableID": "*A_7_3_57716",
+                        "DischargeVariableID": "*A_7_3_57670",
+                        "StatusVariableID": 1,
+                        "LevelVariableID": "*A_7_3_57732"
+                    }
+                }
+            }
         }
     ]
 }

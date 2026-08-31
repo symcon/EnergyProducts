@@ -1,0 +1,22 @@
+{
+    "vendor": "Fronius",
+    "ident": "fronius",
+    "devices": [
+        {
+            "ident": "primo",
+            "name": "Primo",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "Fronius_SunSpec_ALL.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        },
+        {
+            "ident": "symo",
+            "name": "Symo",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "Fronius_SunSpec_ALL.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        }
+    ]
+}

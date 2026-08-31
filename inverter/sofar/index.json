@@ -1,0 +1,14 @@
+{
+    "vendor": "Sofar Solar",
+    "ident": "sofar",
+    "devices": [
+        {
+            "ident": "hyd_5_20_ktl",
+            "name": "HYD-5-20 KTL",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "SofarSolar_HYD5-20KTL.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        }
+    ]
+}

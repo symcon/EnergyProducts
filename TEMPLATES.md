@@ -17,6 +17,10 @@ E3/DC S10 SE              | no (no template file yet)                       | no
 E3/DC S10 X               | no (no template file yet)                       | no (no template file yet)       | no                      | Initial Set
 E3/DC S10 E PRO           | no (no template file yet)                       | no (no template file yet)       | no                      | Initial Set
 E3/DC S20 X PRO           | no (no template file yet)                       | no (no template file yet)       | no                      | Initial Set
+OpenFEMS Energy Storage   | no                                              | no                              | no                      | https://community.symcon.de/t/modbus-vorlage-openfems-fenecon-heckert-speichersystem/135948
+Sungrow SBR128            | no                                              | no                              | no                      | https://community.symcon.de/t/modbus-vorlage-sungrow-wr-sh10rt/136446
+JiKong PB                 | no                                              | no                              | no                      | https://community.symcon.de/t/modbus-vorlage-jkbms-pbxx/137989
+SolarEdge SESTI-S4        | no (set value by W, not percentual)             | no (no Energy Manager)          | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-storedge-hv-batterie-schnittstelle-sesti-s4-lg-resu-10h-speicher/134893
 
 ## Thermal Loads
 Template                      | Supports Energy Manager              | Supports Energy Distribution | Tested with real device | Source
@@ -54,26 +58,21 @@ Solar-Log 500            | no                            | yes                  
 Solar-Log 1000           | no                            | yes                          | no                      | Initial Set
 Solar-Log 1900           | no                            | yes                          | no                      | Initial Set
 Solar-Log 2000           | no                            | yes                          | no                      | Initial Set
-OpenFEMS                 | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-openfems-fenecon-heckert-speichersystem/135948
 Fronius Primo            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
 Fronius Symo             | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
 Growatt TL3-X            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534
 Growatt SPH BH-UP        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534/6
 Solax X3-PRO             | no                            | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
 Solax X3-MIC             | no                            | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
-SolarEdge Inverter       | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-wechselrichter-address-40070-40107/134885, https://community.symcon.de/t/modbus-vorlage-solaredge-wr/135693
 Sofar Solar HYD-5-20 KTL | no                            | no                           | no                      | https://community.symcon.de/t/sofar-solar-hyd-5-20ktl/139079
 Sungrow SH10RT           | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-sungrow-wr-sh10rt/136446
-Sungrow SBR128           | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-sungrow-wr-sh10rt/136446
 M-TEC Hybrid             | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-m-tec-hybrid-wechselrichter-energy-butler/141301
 Solax X1-Boost G3        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solax-x1-boost-g3-0-g3-1-g3-2/141882
 Huawei Sun 2000          | yes (TODO: Included Inverter) | yes                          | no                      | https://community.symcon.de/t/modbus-vorlagen-huawei-pv/135450, https://community.symcon.de/t/modbus-vorlage-huawei-dtsu666-h-und-sun200-4-6ktl-l1/135275 (Vorlage umgesetzt vom 1. Link)
 Solplanet ASW            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solplanet-asw-gen-aiswei-inverter/142670
-JiKong PB                | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-jkbms-pbxx/137989
 GoodWe ET                | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-goodwe-et/137190
 Solax X3-HybridG4        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solax-x3-hybridg4/135959
 Deye Sun xxK-SG04lp3     | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-deye-sun-xxk-sg04lp3/135685/32
-SolarEdge SESTI-S4       | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solaredge-storedge-hv-batterie-schnittstelle-sesti-s4-lg-resu-10h-speicher/134893
 
 ## Meters
 Template               | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
@@ -133,7 +132,7 @@ These are not working yet as the current version is limited to Modbus templates 
 ## Batteries
 Template                            | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
 ----------------------------------- | ----------------------- | ---------------------------- | ----------------------- | -----------
-Goodwe Energy Storage               | yes                     | no                           | no                      | Initial Set
+GoodWe Energy Storage               | yes                     | no                           | no                      | Initial Set
 Foxess ECS 2900                     | yes                     | yes                          | no                      | Initial Set
 Symcon Battery Storage (Simulation) | yes                     | yes                          | no                      | Initial Set
 Tesla Powerwall                     | no                      | yes                          | no                      | Initial Set
