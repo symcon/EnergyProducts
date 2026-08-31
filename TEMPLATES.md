@@ -60,8 +60,8 @@ Solar-Log 1900           | no                            | yes                  
 Solar-Log 2000           | no                            | yes                          | no                      | Initial Set
 Fronius Primo            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
 Fronius Symo             | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
-Growatt TL3-X            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534
-Growatt SPH BH-UP        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534/6
+Growatt TL3-X            | no                            | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534
+Growatt SPH BH-UP        | yes                           | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534/6
 Solax X3-PRO             | no                            | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
 Solax X3-MIC             | no                            | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
 Sofar Solar HYD-5-20 KTL | no                            | no                           | no                      | https://community.symcon.de/t/sofar-solar-hyd-5-20ktl/139079
