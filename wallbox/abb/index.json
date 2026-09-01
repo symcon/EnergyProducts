@@ -19,7 +19,7 @@
                         "SecondaryVariableID": 1,
                         "Type": "wallbox",
                         "VariableConfigType": 0,
-                        "VariableID": "*A_3_0_16412"
+                        "VariableID": "*A_3_3_16412"
                     }
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
@@ -35,7 +35,7 @@
                         "SoC": 1,
                         "SwitchingVariableID": 1,
                         "OnOffVariableID": 1,
-                        "CurrentUsageVariableID": "*A_3_0_16412"
+                        "CurrentUsageVariableID": "*A_3_3_16412"
                     }
                 }
             }

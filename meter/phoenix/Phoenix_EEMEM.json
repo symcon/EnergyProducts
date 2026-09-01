@@ -205,7 +205,7 @@
             "ByteOrder": -1,
             "DataType": 7,
             "Factor": 0.001,
-            "Ident": "ConumedEnergySum",
+            "Ident": "ConsumedEnergySum",
             "Length": 0,
             "Name": "Consumed Energy Sum",
             "Profile": "~Electricity",
