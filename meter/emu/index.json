@@ -13,7 +13,7 @@
                     "Config": {
                         "CalculationType": 0,
                         "Grouped": false,
-                        "InfoVariableID": "*ConsumedEnergySum",
+                        "InfoVariableID": 1,
                         "Invert": false,
                         "Name": "~Name",
                         "SecondaryVariableID": "*Bezug__W_",
