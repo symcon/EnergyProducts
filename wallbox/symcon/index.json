@@ -3,7 +3,7 @@
     "ident": "symcon",
     "devices": [
         {
-            "name": "E-Car (Simulation)",
+            "name": "Wallbox (Simulation)",
             "ident": "ev-simulation",
             "guid": "{6BF11B43-77F7-8ACE-DF27-E5921360F7ED}",
             "bundleId": "de.symcon.virtualdevices",
@@ -46,7 +46,7 @@
     ],
     "locale": {
         "de": {
-            "E-Car (Simulation)": "E-Auto (Simulation)"
+            "Wallbox (Simulation)": "Wallbox (Simulation)"
         }
     }
 }
