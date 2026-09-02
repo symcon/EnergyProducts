@@ -7,7 +7,6 @@
             "name": "Energy Storage",
             "guid": "{D1086D5A-8D52-4E19-AAAD-EFADC81633BD}",
             "bundleId": "goodwe.symcon",
-            "configurationType": "default",
             "moduleConfiguration": {
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
                     "Batteries": {
