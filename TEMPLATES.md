@@ -135,9 +135,6 @@ Template                            | Supports Energy Manager | Supports Energy 
 GoodWe Energy Storage               | yes                     | no                           | no                      | Initial Set
 Foxess ECS 2900                     | yes                     | no                           | no                      | Initial Set
 Symcon Battery Storage (Simulation) | yes                     | yes                          | no                      | Initial Set
-Tesla Powerwall                     | no                      | yes                          | no                      | Initial Set
-Tesla Powerwall 2                   | no                      | yes                          | no                      | Initial Set
-Tesla Powerwall 3                   | no                      | yes                          | no                      | Initial Set
 
 ## Wallboxes
 Template                  | Supports Energy Manager | Supports Energy Distribution | Tested with real device | Source
