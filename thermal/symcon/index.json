@@ -5,6 +5,7 @@
         {
             "ident": "demo-heatmpump",
             "name": "Heatpump (Simulation)",
+            "bundleId": "de.symcon.virtualdevices",
             "guid": "{F4F4F985-47AC-8091-8A4A-53180EB38746}",
             "configurationType": "default",
             "moduleConfiguration": {
@@ -35,6 +36,7 @@
         {
             "ident": "demo-heating-element",
             "name": "Heating Element (Simulation)",
+            "bundleId": "de.symcon.virtualdevices",
             "guid": "{F4F4F985-47AC-8091-8A4A-53180EB38746}",
             "configurationType": "default",
             "moduleConfiguration": {

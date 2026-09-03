@@ -6,6 +6,7 @@
             "name": "Zähler (Simulation)",
             "ident": "zaehler",
             "guid": "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}",
+            "bundleId": "de.symcon.virtualdevices",
             "configurationType": "default",
             "instanceConfiguration": {
               "Calculation"  : true

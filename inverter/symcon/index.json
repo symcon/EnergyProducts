@@ -5,6 +5,7 @@
         {
             "ident": "pv-simulation",
             "name": "PV (Simulation)",
+            "bundleId": "de.symcon.virtualdevices",
             "guid": "{8CCD3592-047A-FE04-1EF2-2884BD90E575}",
             "configurationType": "default",
             "moduleConfiguration": {
