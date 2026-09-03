@@ -1,0 +1,24 @@
+{
+    "vendor": "Maico",
+    "ident": "maico",
+    "devices": [
+        {
+            "ident": "ws_320",
+            "name": "WS 320",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "MAICO_WS320_470.R03.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {},
+            "logging": {}
+        },
+        {
+            "ident": "ws_470",
+            "name": "WS 470",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "MAICO_WS320_470.R03.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {},
+            "logging": {}
+        }
+    ]
+}

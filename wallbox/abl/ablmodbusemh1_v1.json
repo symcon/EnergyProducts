@@ -1,0 +1,1443 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 14,
+            "Factor": 0,
+            "Ident": "device_id_and_firmware_revision_and_config",
+            "Length": 4,
+            "Name": "DeviceID, FirmwareRevision and Config",
+            "Profile": "",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DeviceID, Firmware Version und Konfiguration"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 14,
+            "Factor": 0,
+            "Ident": "modbus_settings",
+            "Length": 2,
+            "Name": "ModBus Settings",
+            "Profile": "",
+            "ReadAddress": 3,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "ModBus Einstellung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "modify_state",
+            "Length": 0,
+            "Name": "Modify State",
+            "Profile": "",
+            "ReadAddress": 5,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Status ändern"
+                }
+            ],
+            "WriteAddress": 5,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 14,
+            "Factor": 0,
+            "Ident": "system_flags",
+            "Length": 4,
+            "Name": "System Flags",
+            "Profile": "",
+            "ReadAddress": 6,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "System Schalter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "maximum_load_duty_cycle",
+            "Length": 0,
+            "Name": "Maximum Load",
+            "Profile": "",
+            "ReadAddress": 20,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximaler Ladestrom"
+                }
+            ],
+            "WriteAddress": 20,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 14,
+            "Factor": 0,
+            "Ident": "read_current_full",
+            "Length": 10,
+            "Name": "Read current full",
+            "Profile": "",
+            "ReadAddress": 46,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom auslesen (Komplett)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "ABL.A1B1": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A1 to B1 enabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A1 to B1 disabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.B1B2": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B1 to B2 enabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B1 to B2 disabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.BAUDRATE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(reserved)",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "9600",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "19200",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "38400 (default)",
+                    "Value": 7.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "57600",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Invalid",
+                    "Value": 9.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 9.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.CODING_RESISTOR": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Adapter Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Adapter Enabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.CURRENT_WHOLE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "%d A",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not available or state A",
+                    "Value": 100.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 80.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.DUTYCYCLE_REDUCTION": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not reduced due to BC3-BC6",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Reduced due to BC3-BC6",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.E0A1": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "E0 to A1 enabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "E0 to A1 disabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.EN_STATUS": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Open",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Close",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.EV_CURRENT": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "EV Current ≤ 100% Ic",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "100% Ic < EV Current ≤ 105% Ic",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "110% Ic < EV Current ≤ 120% Ic",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "105% Ic < EV Current ≤ 110% Ic",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "EV Current > 120 % Ic",
+                    "Value": 7.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 7.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.HARDWARE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "pcba: 141215",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "pcba: 160307",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "pcba: 170725",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "not used",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Notebook",
+            "MaxValue": 3.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.INTERNAL_METER_AVAILABLE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Meter available",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Meter available failed (BC4)",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.INTERNAL_RDCMD": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Adapter Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Adapter Enabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.LIMIT_CP_DETECTION": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Default Limits",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "China Limits",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(reserved)",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(reserved)",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.LOAD_IMBALANCE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "No load imbalance detected",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Load imbalance detected (BC3)",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.MAX_CURRENT_16_0": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 16.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "ABL.ONBOARD_TEMPERATURE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "< 60°C",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "60°C - 80°C (BC5)",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.PARITY": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "No parity",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Parity odd",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Parity even (default)",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Invalid",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.POWER_CYCLE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B1 to B2 enabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B1 to B2 disabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.SOCKET": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Enabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.STATUS_OUTLET": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Status unbekannt",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A0 - Outlet geblockt, EV wird erkannt",
+                    "Value": 160.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A1 - Outlet wartet auf EV",
+                    "Value": 161.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A2 - Outlet reserviert",
+                    "Value": 162.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B0 - EV erkannt, Authentifizierung gescheitert",
+                    "Value": 176.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B1 - EV erkannt, Authentifizierung",
+                    "Value": 177.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B2 - Outlet kann Energie für Ladung bereitstellen",
+                    "Value": 178.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B3 - EV hat Ladung beendet oder unterbrochen",
+                    "Value": 179.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "C2 - Outlet stellt Energie für Ladung bereit",
+                    "Value": 194.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "E0 - Outlet geblockt, EV wird nicht erkannt",
+                    "Value": 224.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "E2 - Outlet im Bootvorgang",
+                    "Value": 225.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "F - Fehler",
+                    "Value": 240.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Menu",
+            "MaxValue": 240.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.STOPBIT": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "1 Stop Bit",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "2 Stop Bit",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.UCP10V": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "UCP > 10V (no EV connected)",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "UCP ≤ 10V (EV connected)",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.UPSTREAM_COMMUNICATION": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Communication established",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Communication lost (BC6)",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.UPSTREAM_TIMEOUT": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Timeout Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Timeout Enabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.UPSTREAM_TIMEOUT_TRIGGERS": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "F14 instead of F4",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Triggers F4 instead of F14",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.WELDING": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Enabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ABL.POWER_TARGET_1PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 3680.0,
+            "MinValue": 1380.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "ABL.POWER_TARGET_3PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 11040.0,
+            "MinValue": 4140.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "hardware",
+            "Name": "Hardware",
+            "Profile": "ABL.HARDWARE",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 22;\r\n$bitMask = 0x3;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hardware"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "device_id",
+            "Name": "Device ID",
+            "Profile": "",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 16;\r\n$bitMask = 0x3F;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geräte ID"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "major_revision",
+            "Name": "Major revision",
+            "Profile": "",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 12;\r\n$bitMask = 0xf;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Major Revision"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "minor_revision",
+            "Name": "Minor revision",
+            "Profile": "",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 8;\r\n$bitMask = 0xf;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Minor Revision"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "coding_resistor",
+            "Name": "Coding Resistor",
+            "Profile": "ABL.CODING_RESISTOR",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 7;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kodierwiderstand"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "upstream_timeout_enabled",
+            "Name": "Upstream-timeout enabled",
+            "Profile": "ABL.UPSTREAM_TIMEOUT",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 6;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Upload Timeout aktiviert"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "internal_phase_current_meter_enabled",
+            "Name": "Internal phase-current meter enabled",
+            "Profile": "ABL.INTERNAL_METER_AVAILABLE",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 5;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Interner Phasenstromzähler aktiviert"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "internal_rdc_md_enabled",
+            "Name": "Internal RDC-MD enabled",
+            "Profile": "ABL.INTERNAL_RDCMD",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 4;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Internes RDC-MD aktiviert"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "socket_enabled",
+            "Name": "Socket enabled",
+            "Profile": "ABL.SOCKET",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 3;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Socket aktiviert"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "welding_detection_contactor_enabled",
+            "Name": "Welding detection (contactor) enabled",
+            "Profile": "ABL.WELDING",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 2;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Schweißererkennung (Schütz) aktiviert"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "outlet_status",
+            "Name": "Outlet status",
+            "Profile": "ABL.STATUS_OUTLET",
+            "ReadAction": "$ident = \"device_id_and_firmware_revision_and_config\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 0;\r\n$bitMask = 0x3;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Steckdosenstatus"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "stop_bit",
+            "Name": "Stop Bit",
+            "Profile": "ABL.STOPBIT",
+            "ReadAction": "$ident = \"modbus_settings\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 6;\r\n$bitMask = 0x3;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stop Bit"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "parity",
+            "Name": "Parity",
+            "Profile": "ABL.PARITY",
+            "ReadAction": "$ident = \"modbus_settings\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 4;\r\n$bitMask = 0x3;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Parität"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "baudrate",
+            "Name": "Baudrate",
+            "Profile": "ABL.BAUDRATE",
+            "ReadAction": "$ident = \"modbus_settings\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 0;\r\n$bitMask = 0xF;\r\n$ident = \"modbus_settings\";\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Baudrate"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "upstream_timeout_trigger",
+            "Name": "Upstream-Timeout Trigger",
+            "Profile": "ABL.UPSTREAM_TIMEOUT_TRIGGERS",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 15;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Upstream-Timeout-Auslöser"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "b1_to_b2_enabled",
+            "Name": "B1 to B2 enabled",
+            "Profile": "ABL.POWER_CYCLE",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 14;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "B1 auf B2 aktiveren"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "limits_for_cp_detection",
+            "Name": "Limits for CP detection",
+            "Profile": "ABL.LIMIT_CP_DETECTION",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 12;\r\n$bitMask = 0x3;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Limits für CP Erkennung"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "upstream_communications",
+            "Name": "Upstream Communication",
+            "Profile": "ABL.UPSTREAM_COMMUNICATION",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 9;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Upstream Kommunikation"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "load_imbalance_detection",
+            "Name": "Load imbalance detection",
+            "Profile": "ABL.LOAD_IMBALANCE",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 8;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Erkennung von Lastunsymmetrien"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "onboard_temperature",
+            "Name": "Onboard temperature",
+            "Profile": "ABL.ONBOARD_TEMPERATURE",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 7;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Platinentemperatur"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "internal_phase_current_meter",
+            "Name": "Internal phase current meter",
+            "Profile": "ABL.INTERNAL_METER_AVAILABLE",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 6;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "internes Phasenstrommessgerät"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "e0_to_a1",
+            "Name": "E0 to A1",
+            "Profile": "ABL.E0A1",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 5;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "E0 auf A1"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "b1_to_b2",
+            "Name": "B1 to B2",
+            "Profile": "ABL.B1B2",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 4;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "B1 auf B2"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "a1_to_b1",
+            "Name": "A1 to B1",
+            "Profile": "ABL.A1B1",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 3;\r\n$bitMask = 0x1;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "A1 auf B1"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "ev_current",
+            "Name": "EV current",
+            "Profile": "ABL.EV_CURRENT",
+            "ReadAction": "$ident = \"system_flags\";\r\n$value = hexdec($VALUES[$ident]);\r\n$shiftAmount = 0;\r\n$bitMask = 0x7;\r\nreturn (($value >> $shiftAmount) & $bitMask);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EV Strom"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "state_of_evse",
+            "Name": "State of EVSE",
+            "Profile": "ABL.STATUS_OUTLET",
+            "ReadAction": "$ident = \"read_current_full\";\r\n$value = hexdec(substr($VALUES[$ident], 2, 2));\r\nreturn $value;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE Status"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "u_cp_status",
+            "Name": "U-CP Status",
+            "Profile": "ABL.UCP10V",
+            "ReadAction": "$ident = \"read_current_full\";\r\nreturn ((hexdec($VALUES[$ident][4]) >> 3) & 0x01);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "U-CP Status"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "duty_cycle_reduction",
+            "Name": "Duty cycle reduction",
+            "Profile": "ABL.DUTYCYCLE_REDUCTION",
+            "ReadAction": "$ident = \"read_current_full\";\r\nreturn ((hexdec($VALUES[$ident][4]) >> 2) & 0x01);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebszyklus Reduzierung"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "en2_status",
+            "Name": "EN2 Status",
+            "Profile": "ABL.EN_STATUS",
+            "ReadAction": "$ident = \"read_current_full\";\r\nreturn ((hexdec($VALUES[$ident][4]) >> 1) & 0x01);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EN2 Status"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "en1_status",
+            "Name": "EN1 Status",
+            "Profile": "ABL.EN_STATUS",
+            "ReadAction": "$ident = \"read_current_full\";\r\nreturn ((hexdec($VALUES[$ident][4]) >> 0) & 0x01);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EN1 Status"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "current_i1_a",
+            "Name": "Current L1 A",
+            "Profile": "ABL.CURRENT_WHOLE",
+            "ReadAction": "$ident = \"read_current_full\";\r\n$value = hexdec(substr($VALUES[$ident], 4*2, 4))/10;\r\nreturn $value;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1 A"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "current_l2_a",
+            "Name": "Current L2 A",
+            "Profile": "ABL.CURRENT_WHOLE",
+            "ReadAction": "$ident = \"read_current_full\";\r\n$value = hexdec(substr($VALUES[$ident], 6*2, 4))/10;\r\nreturn $value;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2 A"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "current_l3_a",
+            "Name": "Current L3 A",
+            "Profile": "ABL.CURRENT_WHOLE",
+            "ReadAction": "$ident = \"read_current_full\";\r\n$value = hexdec(substr($VALUES[$ident], 8*2, 4))/10;\r\nreturn $value;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3 A"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "maximum_load_virtual",
+            "Name": "Maximum Load ",
+            "Profile": "ABL.MAX_CURRENT_16_0",
+            "ReadAction": "$ident = \"read_current_full\";\n$value = (hexdec(substr($VALUES[$ident], 2*2, 4))&0xFFF)/16.6875;\nreturn $value;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximaler Ladestrom"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": "return [\r\n    \"maximum_load_duty_cycle\" => $VALUE * 16.6875\r\n];"
+        },
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_1PHASED",
+            "Name": "Power, 1-phased configuration (Target)",
+            "Profile": "ABL.POWER_TARGET_1PHASED",
+            "ReadAction": "return $VALUES[\"maximum_load_virtual\"]*230*1;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 1-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"maximum_load_virtual\" => $VALUE/230/1\n];"
+        },
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_3PHASED",
+            "Name": "Power, 3-phased configuration (Target)",
+            "Profile": "ABL.POWER_TARGET_3PHASED",
+            "ReadAction": "return $VALUES[\"maximum_load_virtual\"]*230*3;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 3-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"maximum_load_virtual\" => $VALUE/230/3\n];"
+        }
+    ]
+}

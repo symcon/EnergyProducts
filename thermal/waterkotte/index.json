@@ -1,0 +1,37 @@
+{
+    "vendor": "Waterkotte",
+    "ident": "waterkotte",
+    "devices": [
+        {
+            "ident": "ecotouch_5029_ai",
+            "name": "EcoTouch 5029 Ai",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "Waterkotte_2.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{BA90FDB3-C203-8F26-B4D6-F3DB99905724}": {
+                    "Config": {
+                        "CalculationType": 0,
+                        "Grouped": false,
+                        "InfoVariableID": 1,
+                        "Invert": false,
+                        "Name": "~Name",
+                        "SecondaryVariableID": 1,
+                        "Type": "heatpump",
+                        "VariableConfigType": 0,
+                        "VariableID": "*A25_W"
+                    }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "Consumers": {
+                        "Name": "~Name",
+                        "Usage": "~Usage",
+                        "VariableID": "*I30",
+                        "CurrentUsageVariableID": "*A25_W"
+                    }
+                }
+            },
+            "logging": {}
+        }
+    ]
+}
