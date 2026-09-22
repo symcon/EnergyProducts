@@ -21,6 +21,14 @@
                         "VariableConfigType": 0,
                         "VariableID": "*OutputPower"
                     }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*OutputPower",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
+                    }
                 }
             }
         },
@@ -89,6 +97,12 @@
                         "IndividualDeficitVariable": true,
                         "SourceInvert": 1,
                         "DeficitID": "*PactouserTotal"
+                    },
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*Ppv",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
                     }
                 }
             }

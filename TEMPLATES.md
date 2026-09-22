@@ -48,20 +48,20 @@ iDM Aero/Terra/Max            | no (no on/off or percentual current) | no (no co
 ## Inverters
 Template                 | Supports Energy Manager       | Supports Energy Distribution | Tested with real device | Source
 ------------------------ | ----------------------------- | ---------------------------- | ----------------------- | -----------
-SolarEdge SE 12,5K       | no                            | yes                          | no                      | Initial Set
-SolarEdge SE 25K         | no                            | yes                          | no                      | Initial Set
-Solar-Log Base           | no                            | yes                          | no                      | Initial Set
-Solar-Log 200            | no                            | yes                          | no                      | Initial Set
-Solar-Log 250            | no                            | yes                          | no                      | Initial Set
-Solar-Log 300            | no                            | yes                          | no                      | Initial Set
-Solar-Log 500            | no                            | yes                          | no                      | Initial Set
-Solar-Log 1000           | no                            | yes                          | no                      | Initial Set
-Solar-Log 1900           | no                            | yes                          | no                      | Initial Set
-Solar-Log 2000           | no                            | yes                          | no                      | Initial Set
+SolarEdge SE 12,5K       | yes (no restriction register) | yes                          | no                      | Initial Set
+SolarEdge SE 25K         | yes (no restriction register) | yes                          | no                      | Initial Set
+Solar-Log Base           | yes (no restriction register) | yes                          | no                      | Initial Set
+Solar-Log 200            | yes (no restriction register) | yes                          | no                      | Initial Set
+Solar-Log 250            | yes (no restriction register) | yes                          | no                      | Initial Set
+Solar-Log 300            | yes (no restriction register) | yes                          | no                      | Initial Set
+Solar-Log 500            | yes (no restriction register) | yes                          | no                      | Initial Set
+Solar-Log 1000           | yes (no restriction register) | yes                          | no                      | Initial Set
+Solar-Log 1900           | yes (no restriction register) | yes                          | no                      | Initial Set
+Solar-Log 2000           | yes (no restriction register) | yes                          | no                      | Initial Set
 Fronius Primo            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
 Fronius Symo             | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-fronius-primo-symo-xx-nicht-gen24/135831
-Growatt TL3-X            | no                            | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534
-Growatt SPH BH-UP        | yes                           | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534/6
+Growatt TL3-X            | yes (restriction only in %)   | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534
+Growatt SPH BH-UP        | yes (restriction only in %)   | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-growatt/135534/6
 Solax X3-PRO             | no                            | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
 Solax X3-MIC             | no                            | no                           | no                      | https://community.symcon.de/t/solax-x3-pro-mic-wechselrichter/138202
 Sofar Solar HYD-5-20 KTL | no                            | no                           | no                      | https://community.symcon.de/t/sofar-solar-hyd-5-20ktl/139079
@@ -70,7 +70,7 @@ M-TEC Hybrid             | no                            | no                   
 Solax X1-Boost G3        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solax-x1-boost-g3-0-g3-1-g3-2/141882
 Huawei Sun 2000          | yes (TODO: Included Inverter) | yes                          | no                      | https://community.symcon.de/t/modbus-vorlagen-huawei-pv/135450, https://community.symcon.de/t/modbus-vorlage-huawei-dtsu666-h-und-sun200-4-6ktl-l1/135275 (Vorlage umgesetzt vom 1. Link)
 Solplanet ASW            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solplanet-asw-gen-aiswei-inverter/142670
-GoodWe ET                | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-goodwe-et/137190
+GoodWe ET                | yes (no restriction register) | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-goodwe-et/137190
 Solax X3-HybridG4        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solax-x3-hybridg4/135959
 Deye Sun xxK-SG04lp3     | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-deye-sun-xxk-sg04lp3/135685/32
 

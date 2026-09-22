@@ -21,6 +21,14 @@
                         "VariableConfigType": 0,
                         "VariableID": "*A_3_4_3502"
                     }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*A_3_4_3502",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
+                    }
                 }
             }
         },
@@ -42,6 +50,14 @@
                         "Type": "solar",
                         "VariableConfigType": 0,
                         "VariableID": "*A_3_4_3502"
+                    }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*A_3_4_3502",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
                     }
                 }
             }
@@ -65,6 +81,14 @@
                         "VariableConfigType": 0,
                         "VariableID": "*A_3_4_3502"
                     }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*A_3_4_3502",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
+                    }
                 }
             }
         },
@@ -86,6 +110,14 @@
                         "Type": "solar",
                         "VariableConfigType": 0,
                         "VariableID": "*A_3_4_3502"
+                    }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*A_3_4_3502",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
                     }
                 }
             }
@@ -109,6 +141,14 @@
                         "VariableConfigType": 0,
                         "VariableID": "*A_3_4_3502"
                     }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*A_3_4_3502",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
+                    }
                 }
             }
         },
@@ -130,6 +170,14 @@
                         "Type": "solar",
                         "VariableConfigType": 0,
                         "VariableID": "*A_3_4_3502"
+                    }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*A_3_4_3502",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
                     }
                 }
             }
@@ -153,6 +201,14 @@
                         "VariableConfigType": 0,
                         "VariableID": "*A_3_4_3502"
                     }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*A_3_4_3502",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
+                    }
                 }
             }
         },
@@ -174,6 +230,14 @@
                         "Type": "solar",
                         "VariableConfigType": 0,
                         "VariableID": "*A_3_4_3502"
+                    }
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*A_3_4_3502",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
                     }
                 }
             }

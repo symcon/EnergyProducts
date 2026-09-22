@@ -94,6 +94,12 @@
                         "IndividualDeficitVariable": false,
                         "SourceInvert": 1,
                         "DeficitID": 1
+                    },
+                    "EnergyProductionVariables": {
+                        "Name": "~Name",
+                        "VariableID": "*A_3_3_35301",
+                        "RestrictVariableID": "~RestrictVariableID",
+                        "MaximumProduction": "~MaximumProduction"
                     }
                 }
             }
