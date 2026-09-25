@@ -125,6 +125,12 @@ Kathrein KWB                      | no (no target variable)     | yes           
 DaheimLaden Smart PRO, ...        | no (template without units) | no (no Energy Manager)       | no                      | https://community.symcon.de/t/modbus-vorlage-daheimladen-wallbox/144085
 Wallbe Eco 2.0                    | yes                         | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-wallbox-wallbe-eco-2-0/135458
 
+## Control Boxes (§14a and §9)
+Template                  | Supports Energy Manager                    | Supports Energy Distribution | Tested with real device | Source
+------------------------- | ------------------------------------------ | ---------------------------- | ----------------------- | -----------
+EEBUS (§14a and §9)       | yes (LPC and LPP, requires EEBUS module)   | no (no consumption variable) | no                      | Initial Set
+EEBUS (§14a only)         | yes (LPC, requires EEBUS module)           | no (no consumption variable) | no                      | Initial Set
+
 # Other Templates
 
 These are not working yet as the current version is limited to Modbus templates only
