@@ -1,0 +1,16 @@
+{
+    "vendor": "Buderus",
+    "ident": "buderus",
+    "devices": [
+        {
+            "ident": "wpm100",
+            "name": "WPM100",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "Buderus_WPM100_modbus_1_0.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+            },
+            "logging": {}
+        }
+    ]
+}

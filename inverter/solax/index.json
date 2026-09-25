@@ -1,0 +1,38 @@
+{
+    "vendor": "Solax",
+    "ident": "solax",
+    "devices": [
+        {
+            "ident": "x3_pro",
+            "name": "X3-PRO",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "Solax X3PRO_MIC.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        },
+        {
+            "ident": "x3_mic",
+            "name": "X3-MIC",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "Solax X3PRO_MIC.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        },
+        {
+            "ident": "x1_boost_g3",
+            "name": "X1-Boost G3",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "Solax X1-Boost G3.0-G3.1-G3.2.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        },
+        {
+            "ident": "x3_hybrid_g4",
+            "name": "X3-HybridG4",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "mb-Solax-X3-Hybrid-G4-pow.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        }
+    ]
+}

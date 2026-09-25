@@ -1,0 +1,1902 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "FIRMWARE_VERSION",
+            "Length": 4,
+            "Name": "Firmware Version",
+            "Profile": "",
+            "ReadAddress": 100,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmware Version"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "OCPP_STATUS",
+            "Length": 0,
+            "Name": "OCPP Status",
+            "Profile": "MENNEKES_4Y4B.OCPP_STATUS",
+            "ReadAddress": 104,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "OCPP Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "ERROR_CODES",
+            "Length": 0,
+            "Name": "Error Codes",
+            "Profile": "",
+            "ReadAddress": 105,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehlercodes"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "PROTOCOL_VERSION",
+            "Length": 4,
+            "Name": "Protocol Version",
+            "Profile": "",
+            "ReadAddress": 120,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Modbus Protokollversion"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "VEHICLE_STATE",
+            "Length": 0,
+            "Name": "Vehicle State",
+            "Profile": "MENNEKES_4Y4B.VEHICLE_STATE",
+            "ReadAddress": 122,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fahrzeugstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGE_POINT_AVAILABILITY",
+            "Length": 0,
+            "Name": "Charge Point Availability",
+            "Profile": "MENNEKES_4Y4B.CHARGE_POINT_AVAILABILITY",
+            "ReadAddress": 124,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverfügbarkeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "SAFE_CURRENT",
+            "Length": 0,
+            "Name": "Safe Current",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 131,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sicherheitsstrom"
+                }
+            ],
+            "WriteAddress": 131,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "COMMUNICATION_TIMEOUT",
+            "Length": 0,
+            "Name": "Communication Timeout",
+            "Profile": "MENNEKES_4Y4B.SECONDS",
+            "ReadAddress": 132,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kommunikations-Timeout"
+                }
+            ],
+            "WriteAddress": 132,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "OPERATOR_CURRENT_LIMIT",
+            "Length": 0,
+            "Name": "Operator Current Limit",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 134,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Operator Stromgrenze"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "RELAY_STATE",
+            "Length": 0,
+            "Name": "Relay State",
+            "Profile": "MENNEKES_4Y4B.RELAY_STATE",
+            "ReadAddress": 140,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Relais-Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "DEVICE_ID",
+            "Length": 2,
+            "Name": "Device Id",
+            "Profile": "",
+            "ReadAddress": 141,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Herstellercode"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "CHARGE_POINT_MODEL",
+            "Length": 20,
+            "Name": "Charge Point Model",
+            "Profile": "",
+            "ReadAddress": 142,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladestationsmodell"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "PLUG_LOCK_STATUS",
+            "Length": 0,
+            "Name": "Plug Lock Status",
+            "Profile": "MENNEKES_4Y4B.PLUG_LOCK_STATUS",
+            "ReadAddress": 152,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Status Steckerverriegelung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "FIRMWARE_VERSION_MAJOR",
+            "Length": 0,
+            "Name": "Firmware Versions Major",
+            "Profile": "",
+            "ReadAddress": 153,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmware Version Major"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "FIRMWARE_VERSION_MINOR",
+            "Length": 0,
+            "Name": "Firmware Versions Minor",
+            "Profile": "",
+            "ReadAddress": 154,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmware Version Minor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "FIRMWARE_VERSION_PATCH",
+            "Length": 0,
+            "Name": "Firmware Versions Patch",
+            "Profile": "",
+            "ReadAddress": 155,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmware Version Patch"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "DEVICE_NAME",
+            "Length": 32,
+            "Name": "Device Name",
+            "Profile": "",
+            "ReadAddress": 158,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gerätename vom Kunde vergeben"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_ENERGY_L1_L2_L3",
+            "Length": 0,
+            "Name": "Meter Energy L1=L2=L3",
+            "Profile": "MENNEKES_4Y4B.ENERGY",
+            "ReadAddress": 200,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Energie L1=L2=L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_POWER_L1",
+            "Length": 0,
+            "Name": "Meter Power L1",
+            "Profile": "MENNEKES_4Y4B.POWER",
+            "ReadAddress": 206,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Leistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_POWER_L2",
+            "Length": 0,
+            "Name": "Meter Power L2",
+            "Profile": "MENNEKES_4Y4B.POWER",
+            "ReadAddress": 208,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Leistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_POWER_L3",
+            "Length": 0,
+            "Name": "Meter Power L3",
+            "Profile": "MENNEKES_4Y4B.POWER",
+            "ReadAddress": 210,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Leistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "METER_CURRENT_L1",
+            "Length": 0,
+            "Name": "Meter Current L1",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 212,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "METER_CURRENT_L2",
+            "Length": 0,
+            "Name": "Meter Current L2",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 214,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "METER_CURRENT_L3",
+            "Length": 0,
+            "Name": "Meter Current L3",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 216,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_TOTAL_ENERGY",
+            "Length": 0,
+            "Name": "Meter Total Energy",
+            "Profile": "MENNEKES_4Y4B.ENERGY",
+            "ReadAddress": 218,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Gesamt Energie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_TOTAL_POWER",
+            "Length": 0,
+            "Name": "Meter Total Power",
+            "Profile": "MENNEKES_4Y4B.POWER",
+            "ReadAddress": 220,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Gesamt Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_VOLTAGE_L1",
+            "Length": 0,
+            "Name": "Meter Voltage L1",
+            "Profile": "MENNEKES_4Y4B.VOLTAGE",
+            "ReadAddress": 222,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Spannung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_VOLTAGE_L2",
+            "Length": 0,
+            "Name": "Meter Voltage L2",
+            "Profile": "MENNEKES_4Y4B.VOLTAGE",
+            "ReadAddress": 224,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Spannung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_VOLTAGE_L3",
+            "Length": 0,
+            "Name": "Meter Voltage L3",
+            "Profile": "MENNEKES_4Y4B.VOLTAGE",
+            "ReadAddress": 226,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zähler Spannung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_MODE",
+            "Length": 0,
+            "Name": "Charging Point Network Mode",
+            "Profile": "MENNEKES_4Y4B.CHARGING_POINT_NETWORK",
+            "ReadAddress": 600,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Modus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_CURRENT_LIMIT_L1",
+            "Length": 0,
+            "Name": "Charging Point Network Current Limit L1",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 610,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Stromgrenze L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_CURRENT_LIMIT_L2",
+            "Length": 0,
+            "Name": "Charging Point Network Current Limit L2",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 611,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Stromgrenze L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_CURRENT_LIMIT_L3",
+            "Length": 0,
+            "Name": "Charging Point Network Current Limit L3",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 612,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Stromgrenze L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_EMS_CURRENT_LIMIT_L1",
+            "Length": 0,
+            "Name": "Charging Point Network EMS Current Limit L1",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 613,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund EMS Stromgrenze L1"
+                }
+            ],
+            "WriteAddress": 613,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_EMS_CURRENT_LIMIT_L2",
+            "Length": 0,
+            "Name": "Charging Point Network EMS Current Limit L2",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 614,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund EMS Stromgrenze L2"
+                }
+            ],
+            "WriteAddress": 613,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_EMS_CURRENT_LIMIT_L3",
+            "Length": 0,
+            "Name": "Charging Point Network EMS Current Limit L3",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 615,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund EMS Stromgrenze L3"
+                }
+            ],
+            "WriteAddress": 613,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_SOURCE_OF_LIMITATION",
+            "Length": 0,
+            "Name": "Charging Point Network Source of Limitation",
+            "Profile": "MENNEKES_4Y4B.CPN_SOURCE_LIMIT",
+            "ReadAddress": 620,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Quelle der Begrenzung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_CONNECTED_CHARGING_STATIONS",
+            "Length": 0,
+            "Name": "Charging Point Network Connected Charging Stations",
+            "Profile": "",
+            "ReadAddress": 621,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Anzahl verbundene Ladestationen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_OVERALL_CURRENT_APPLIED_L1",
+            "Length": 0,
+            "Name": "Charging Point Network Overall Current Applied L1",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 630,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund zugewiesener Gesamtstrom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_OVERALL_CURRENT_APPLIED_L2",
+            "Length": 0,
+            "Name": "Charging Point Network Overall Current Applied L2",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 631,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund zugewiesener Gesamtstrom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_OVERALL_CURRENT_APPLIED_L3",
+            "Length": 0,
+            "Name": "Charging Point Network Overall Current Applied L3",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 632,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund zugewiesener Gesamtstrom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_OVERALL_CURRENT_AVAILABLE_L1",
+            "Length": 0,
+            "Name": "Charging Point Network Overall Current Available L1",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 633,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund verfügbarer Gesamtstrom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_OVERALL_CURRENT_AVAILABLE_L2",
+            "Length": 0,
+            "Name": "Charging Point Network Overall Current Available L2",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 634,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund verfügaberer Gesamtstrom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_OVERALL_CURRENT_AVAILABLE_L3",
+            "Length": 0,
+            "Name": "Charging Point Network Overall Current Available L3",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 635,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund verfügaberer Gesamtstrom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "SIGNALED_CURRENT_TO_EV",
+            "Length": 0,
+            "Name": "Signaled Current to EV",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 706,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Signalisierter Strom Richtung Fahrzeug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "MIN_CHARGING_CURRENT_LIMIT",
+            "Length": 0,
+            "Name": "Min Charging Current Limit",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 712,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Minimaler Ladestrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "MAX_CHARGING_CURRENT_LIMIT",
+            "Length": 0,
+            "Name": "Max Charging Current Limit",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 715,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximaler Ladestrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "CHARGED_ENERGY",
+            "Length": 0,
+            "Name": "Charged Energy",
+            "Profile": "MENNEKES_4Y4B.ENERGY",
+            "ReadAddress": 716,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geladene Energie aktuelle/zuletzt abgeschlossene Ladung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "CHARGING_DURATION",
+            "Length": 0,
+            "Name": "Charging Duration",
+            "Profile": "MENNEKES_4Y4B.SECONDS",
+            "ReadAddress": 718,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladedauer aktuelle Ladung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "HEMS_CURRENT_LIMIT",
+            "Length": 0,
+            "Name": "HEMS Current Limit",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 1000,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Stromgrenze"
+                }
+            ],
+            "WriteAddress": 1000,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "HEMS_CURRENT_LIMIT_1_10_A",
+            "Length": 0,
+            "Name": "HEMS Current Limit 1/10 A",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 1001,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Stromgrenze in 0,1A"
+                }
+            ],
+            "WriteAddress": 1001,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "HEMS_POWER_LIMIT",
+            "Length": 0,
+            "Name": "HEMS Power Limit",
+            "Profile": "MENNEKES_4Y4B.POWER",
+            "ReadAddress": 1002,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Leistungsgrenze"
+                }
+            ],
+            "WriteAddress": 1002,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "HEMS_CURRENT_LIMIT",
+            "Length": 0,
+            "Name": "HEMS Current Limit",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 2000,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Stromgrenze"
+                }
+            ],
+            "WriteAddress": 2000,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "HEMS_CURRENT_LIMIT_1_10_A",
+            "Length": 0,
+            "Name": "HEMS Current Limit 1/10 A",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 2001,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Stromgrenze 0,1A"
+                }
+            ],
+            "WriteAddress": 2001,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "HEMS_POWER_LIMIT",
+            "Length": 0,
+            "Name": "HEMS Power Limit",
+            "Profile": "MENNEKES_4Y4B.POWER",
+            "ReadAddress": 2002,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Leistungsgrenze"
+                }
+            ],
+            "WriteAddress": 2002,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "MODBUS_TCP_HEMS_CONFIGURATION",
+            "Length": 0,
+            "Name": "Modbus TCP HEMS Configuration",
+            "Profile": "MENNEKES_4Y4B.HEMS_CONFIGURATION",
+            "ReadAddress": 2010,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Modbus TCP / HEMS Konfiguration"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "HEMS_COMMUNICATION_STATUS",
+            "Length": 0,
+            "Name": "HEMS Communication Status",
+            "Profile": "MENNEKES_4Y4B.HEMS_COM_STATUS",
+            "ReadAddress": 2011,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Kommunikationsstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "HEMS_POWER_LIMIT_MINIMUM",
+            "Length": 0,
+            "Name": "HEMS Power Limit (Minimum)",
+            "Profile": "MENNEKES_4Y4B.POWER",
+            "ReadAddress": 2012,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Leistungsgrenze (Minimum)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "HEMS_POWER_LIMIT_MAXIMUM",
+            "Length": 0,
+            "Name": "HEMS Power Limit (Maximum)",
+            "Profile": "MENNEKES_4Y4B.POWER",
+            "ReadAddress": 2013,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Leistungsgrenze (Maximum)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "PHASE_SWITCH_MODE",
+            "Length": 0,
+            "Name": "Phase Switch Mode",
+            "Profile": "MENNEKES_4Y4B.PHASE_SWITCH_MODE",
+            "ReadAddress": 2020,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phasenwechselmodus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "PHASE_SWITCH_PAUSE",
+            "Length": 0,
+            "Name": "Phase Switch Pause",
+            "Profile": "MENNEKES_4Y4B.SECONDS",
+            "ReadAddress": 2021,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phasenwechselpause"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "PHASE_SWITCH_STATUS",
+            "Length": 0,
+            "Name": "Phase Switch Status",
+            "Profile": "MENNEKES_4Y4B.PHASE_SWITCH_STATUS",
+            "ReadAddress": 2022,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phasenwechselstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "ASSIGNED_PHASES",
+            "Length": 0,
+            "Name": "Assigned Phases",
+            "Profile": "MENNEKES_4Y4B.ASSIGNED_PHASES",
+            "ReadAddress": 2023,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zugewiesene Phasen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "AUTHORIZATION_STATUS",
+            "Length": 0,
+            "Name": "Authorization Status",
+            "Profile": "MENNEKES_4Y4B.AUTHORIZATION_STATUS",
+            "ReadAddress": 2030,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Autorisierungsstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "DEVICE_NAME",
+            "Length": 32,
+            "Name": "Device Name",
+            "Profile": "",
+            "ReadAddress": 2158,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gerätename vom Kunde vergeben"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_SATELLITES_IN_FALLBACK",
+            "Length": 0,
+            "Name": "Charging Point Network Satellites in Fallback",
+            "Profile": "",
+            "ReadAddress": 2622,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Anzahl nicht erreichbarer Satellites"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_OVERALL_CURRENT_CONSUMPTION_L1",
+            "Length": 0,
+            "Name": "Charging Point Network Overall Current Consumption L1",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 2636,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Stromverbrauch Gesamt L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_OVERALL_CURRENT_CONSUMPTION_L2",
+            "Length": 0,
+            "Name": "Charging Point Network Overall Current Consumption L2",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 2637,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Stromverbrauch Gesamt L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGING_POINT_NETWORK_OVERALL_CURRENT_CONSUMPTION_L3",
+            "Length": 0,
+            "Name": "Charging Point Network Overall Current Consumption L3",
+            "Profile": "MENNEKES_4Y4B.CURRENT",
+            "ReadAddress": 2638,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladepunktverbund Stromverbrauch Gesamt L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "MENNEKES_4Y4B.ASSIGNED_PHASES": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "None",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "One phase",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Three phases",
+                    "Value": 2.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "tally-3",
+            "MaxValue": 2.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.AUTHORIZATION_STATUS": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "No authorization neccessary (Autostart)",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Authorized",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not authorized",
+                    "Value": 2.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "key",
+            "MaxValue": 2.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.CHARGE_POINT_AVAILABILITY": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unavailable",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Available",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "check",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.CHARGING_POINT_NETWORK": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charging Point Network Master",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charging Point Network Satellite",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "chart-network",
+            "MaxValue": 10.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.CPN_SOURCE_LIMIT": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Static value charging point network",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Static value charging point network with external meter",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Static value grid with external meter",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Downgrade",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energy Meter Fallback",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Static value charging point network with EEBus",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "octagon-exclamation",
+            "MaxValue": 10.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.CURRENT": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "bolt-auto",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.ENERGY": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "battery-bolt",
+            "MaxValue": 1e+20,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " Wh",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.HEMS_COM_STATUS": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "No Communication Error",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "HEMS Communication Timeout (Safe Current Active)",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "satellite-dish",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.HEMS_CONFIGURATION": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Modbus TCP Server not active (HEMS not possible)",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Modbus TCP Server active in Read only Mode (HEMS Read Only)",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Modbus TCP Server active in Read and Write Mode (HEMS Read and Write)",
+                    "Value": 2.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "gamepad",
+            "MaxValue": 2.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.OCPP_STATUS": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Undefined",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Available",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Preparing",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charging",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SuspendedEVSE",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SuspendedEV",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Finishing",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Reserved",
+                    "Value": 7.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unavailable",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Faulted",
+                    "Value": 9.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "cloud-check",
+            "MaxValue": 20.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.PHASE_SWITCH_MODE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Use 1 phase only",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Use 3 phases only",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Use dynamic phase switch",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phase switch only if no EV is connected (phase(s) are used as they were at the start of the charging session",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "shuffle",
+            "MaxValue": 5.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.PHASE_SWITCH_STATUS": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phase switch not running",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phase switch running",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "hourglass-start",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.PLUG_LOCK_STATUS": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Undefined",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Open",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Closed",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Latch not used",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not read",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "lock-open",
+            "MaxValue": 4.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.POWER": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "car-bolt",
+            "MaxValue": 22080.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.RELAY_STATE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Off",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "On",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.SECONDS": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "clock",
+            "MaxValue": 600.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " s",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.VEHICLE_STATE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A (no EV connected)",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B (EV connected but not charging)",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "C (EV charging)",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "D (ventilation required)",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "E (error)",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "car-on",
+            "MaxValue": 5.0,
+            "MinValue": 1.0,
+            "Prefix": "CP-",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES_4Y4B.VOLTAGE": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "gauge-circle-bolt",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " V",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}
