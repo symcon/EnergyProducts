@@ -152,6 +152,21 @@
         {
             "Active": true,
             "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "MQTT_BATTERY_POWER_WATT",
+            "Length": 0,
+            "Name": "Leistung (W)",
+            "Profile": "Huawei.Power.W",
+            "ReadAddress": 37765,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
             "DataType": 2,
             "Factor": 0.1,
             "Ident": "MQTT_BATTERY_DISCHARGE_LIMIT",
