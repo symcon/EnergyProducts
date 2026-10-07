@@ -1,0 +1,346 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "21x_AphA",
+            "Length": 0,
+            "Name": "Phase_A_Current",
+            "Profile": "~Ampere",
+            "ReadAddress": 290,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom-L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "21x_AphB",
+            "Length": 0,
+            "Name": "Phase_B_Current",
+            "Profile": "~Ampere",
+            "ReadAddress": 304,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "21x_AphC",
+            "Length": 0,
+            "Name": "Phase_C_Current",
+            "Profile": "~Ampere",
+            "ReadAddress": 318,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "21x_PhVphA",
+            "Length": 0,
+            "Name": "Phase_Voltage_AN",
+            "Profile": "~Volt.230",
+            "ReadAddress": 288,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "21x_PhVphB",
+            "Length": 0,
+            "Name": "Phase_Voltage_BN",
+            "Profile": "~Volt.230",
+            "ReadAddress": 302,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "21x_PhVphC",
+            "Length": 0,
+            "Name": "Phase_Voltage_CN",
+            "Profile": "~Volt.230",
+            "ReadAddress": 316,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "21x_PPVphAB",
+            "Length": 0,
+            "Name": "Phase_Voltage_AB",
+            "Profile": "~Volt",
+            "ReadAddress": 286,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "21x_PPVphBC",
+            "Length": 0,
+            "Name": "Phase_Voltage_AC",
+            "Profile": "~Volt",
+            "ReadAddress": 300,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "21x_PPVphCA",
+            "Length": 0,
+            "Name": "Phase_Voltage_CA",
+            "Profile": "~Volt",
+            "ReadAddress": 314,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "21x_Hz",
+            "Length": 0,
+            "Name": "Frequency",
+            "Profile": "~Hertz.50",
+            "ReadAddress": 272,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "21x_W",
+            "Length": 0,
+            "Name": "Power_Total",
+            "Profile": "~Watt",
+            "ReadAddress": 262,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "21x_WphA",
+            "Length": 0,
+            "Name": "Power_A",
+            "Profile": "~Watt",
+            "ReadAddress": 292,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "21x_WphB",
+            "Length": 0,
+            "Name": "Power_B",
+            "Profile": "~Watt",
+            "ReadAddress": 306,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "21x_WphC",
+            "Length": 0,
+            "Name": "Power_C",
+            "Profile": "~Watt",
+            "ReadAddress": 320,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "21x_TotWhExp",
+            "Length": 0,
+            "Name": "Energy_Total_Exported",
+            "Profile": "",
+            "ReadAddress": 1032,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtwirkarbeit ins Netz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "21x_TotWhImp",
+            "Length": 0,
+            "Name": "Energy_Total_Imported",
+            "Profile": "",
+            "ReadAddress": 1026,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtwirkarbeit aus Netz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {},
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

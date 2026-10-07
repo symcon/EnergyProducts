@@ -1,0 +1,43 @@
+{
+    "vendor": "EEBUS",
+    "ident": "eebus",
+    "devices": [
+        {
+            "name": "Control Box (§14a and §9)",
+            "ident": "controlbox",
+            "guid": "{722144A9-87F8-4AE3-8E1D-F503121F9EB4}",
+            "configurationType": "eebus",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "GridControl": {
+                        "LimitationVariableID": "*CsPowerLimitConsumeActive",
+                        "LimitationValueID": "*CsPowerLimitConsume",
+                        "MaximumFeedInType": 2,
+                        "MaximumFeedInLimitID": "*CsPowerLimitProduce",
+                        "MaximumFeedInLimitActiveID": "*CsPowerLimitProduceActive"
+                    }
+                }
+            }
+        },
+        {
+            "name": "Control Box (§14a only)",
+            "ident": "controlbox_14a",
+            "guid": "{722144A9-87F8-4AE3-8E1D-F503121F9EB4}",
+            "configurationType": "eebus",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "GridControl": {
+                        "LimitationVariableID": "*CsPowerLimitConsumeActive",
+                        "LimitationValueID": "*CsPowerLimitConsume"
+                    }
+                }
+            }
+        }
+    ],
+    "locale": {
+        "de": {
+            "Control Box (§14a and §9)": "Steuerbox (§14a und §9)",
+            "Control Box (§14a only)": "Steuerbox (nur §14a)"
+        }
+    }
+}

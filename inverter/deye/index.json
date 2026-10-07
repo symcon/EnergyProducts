@@ -1,0 +1,14 @@
+{
+    "vendor": "Deye",
+    "ident": "deye",
+    "devices": [
+        {
+            "ident": "sun_sg04lp3",
+            "name": "Sun xxK-SG04lp3",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "V6.2_Test.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        }
+    ]
+}

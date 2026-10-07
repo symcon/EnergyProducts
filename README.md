@@ -1,4 +1,4 @@
-# Product Configuraiton
+# Product Configuration
 ## index.json
 
 | key     | value                                                                                                               |
@@ -8,11 +8,32 @@
 | devices | list of the vendors devices                                                                                         |
 
 ### Device
-| key                 | value                                                                                                               |
-|---------------------|---------------------------------------------------------------------------------------------------------------------|
-| vendor              | The vendors name                                                                                                    |
-| ident               | the ident of the vendor. Must be a valid directory/filename                                                         |
-| moduleConfiguration | guid -> object with property names as keys and property values as values                                            |
+| key                    | value                                                                                                               |
+|------------------------|---------------------------------------------------------------------------------------------------------------------|
+| vendor                 | The vendors name                                                                                                    |
+| ident                  | the ident of the vendor. Must be a valid directory/filename                                                         |
+| guid                   | the guid of the module the device instance is created from                                                          |
+| configurationType      | how the device is set up. See [configurationType](#configurationtype)                                               |
+| moduleConfiguration    | guid -> object with property names as keys and property values as values                                            |
+| instanceConfiguration  | property names as keys and property values as values. Only used by the default configurationType                    |
+
+#### configurationType
+| value      | description                                                                                                                                             |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| modbus-tcp | A Modbus Gateway and a Client Socket are created for the device instance. The user is asked for the host and port and the `template` is imported          |
+| default       | The device instance is created without any data flow, so no host and port are asked for. The instance is set up by `instanceConfiguration` instead of a `template` |
+| eebus      | The devices known to the EEBus Configurator are listed on the page, so the device is paired within the wizard. Only connected devices can be selected, as only those provide all variables. The device instance is reused or created below the EEBus Service. If the selected device does not offer every variable referenced with `*`, the configuration page shows an error. The entry is hidden if the module of `guid` does not exist |
+
+#### instanceConfiguration
+Only used by the `default` configurationType. The properties of the created device instance are set directly from this object before the changes are applied.
+```
+{
+    "instanceConfiguration": {
+        "SomeProperty": 5,
+        "AnotherProperty": "value"
+    }
+}
+```
 
 #### moduleConfiguration
 ##### Lists

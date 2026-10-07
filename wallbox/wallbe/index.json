@@ -1,0 +1,36 @@
+{
+    "vendor": "Wallbe",
+    "ident": "wallbe",
+    "devices": [
+        {
+            "name": "Eco 2.0",
+            "ident": "eco2_0",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "Wallbe_Eco_2_0.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EVs": {
+                        "Name": "~Name",
+                        "Unit": 1,
+                        "Phases": "~Phases",
+                        "PowerPerPhase": false,
+                        "Switching": "~Switching",
+                        "SwitchingVariableSinglePhaseValue": "0",
+                        "SwitchingVariableMultiPhaseValue": "0",
+                        "MinChargingCurrent": "~MinChargingCurrent",
+                        "MaxChargingCurrent": "~MaxChargingCurrent",
+                        "Delay": 20,
+                        "Capacity": "~Capacity",
+                        "EnergyPerKm": "~EnergyPerKm",
+                        "SoC": 1,
+                        "VariableID": "*A_2_3_528",
+                        "OnOffVariableID": "*A_0_1_400",
+                        "SwitchingVariableID": 1,
+                        "CurrentUsageVariableID": 1
+                    }
+                }
+            }
+        }
+    ]
+}

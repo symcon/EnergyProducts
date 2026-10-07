@@ -1,0 +1,14 @@
+{
+    "vendor": "Sungrow",
+    "ident": "sungrow",
+    "devices": [
+        {
+            "ident": "sh10rt",
+            "name": "SH10RT",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "IPS_ModBus_Vorlage_SH10RT_SBR.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        }
+    ]
+}

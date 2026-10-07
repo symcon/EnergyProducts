@@ -1,0 +1,14 @@
+{
+    "vendor": "OpenFEMS",
+    "ident": "openfems",
+    "devices": [
+        {
+            "ident": "energy_storage",
+            "name": "Energy Storage",
+            "guid": "{90BF9234-B44C-7EB3-280B-FBD6075ADDAA}",
+            "template": "OpenFEMS.json",
+            "configurationType": "modbus-tcp",
+            "moduleConfiguration": {}
+        }
+    ]
+}

@@ -101,22 +101,22 @@
                         "VariableConfigType": 0,
                         "VariableID": "*Real_Power_Sum"
                     }
-                }
-            },
-            "{2E863560-5434-7166-C3F6-111D5D471A43}": {
-                "EVs": {
-                    "VariableID": "*Modbus_Slave_Max_Current",
-                    "Unit": 1,
-                    "Phases": "~Phases",
-                    "Switching": false,
-                    "MinChargingCurrent": 6,
-                    "MaxChargingCurrent": "~MaxChargingCurrent",
-                    "Name": "~Name",
-                    "Delay": 60,
-                    "Condition": "[]",
-                    "SoC": 1,
-                    "SwitchingVariableID": 1,
-                    "OnOffVariableID": 1
+                },
+                "{2E863560-5434-7166-C3F6-111D5D471A43}": {
+                    "EVs": {
+                        "VariableID": "*Modbus_Slave_Max_Current",
+                        "Unit": 1,
+                        "Phases": "~Phases",
+                        "Switching": false,
+                        "MinChargingCurrent": 6,
+                        "MaxChargingCurrent": "~MaxChargingCurrent",
+                        "Name": "~Name",
+                        "Delay": 60,
+                        "Condition": "[]",
+                        "SoC": 1,
+                        "SwitchingVariableID": 1,
+                        "OnOffVariableID": 1
+                    }
                 }
             }
         },
