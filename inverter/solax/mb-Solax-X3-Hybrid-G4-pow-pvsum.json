@@ -624,6 +624,16 @@
             "Translation": [],
             "VariableType": 1,
             "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "PvPowerSum",
+            "Name": "PvPower Sum",
+            "Profile": "Watt.I",
+            "ReadAction": "return ($VALUES[\"A_2_4_10\"] + $VALUES[\"A_2_4_11\"]);",
+            "Translation": [],
+            "VariableType": 1,
+            "WriteAction": ""
         }
     ]
 }

@@ -71,7 +71,7 @@ Solax X1-Boost G3        | no                            | no                   
 Huawei Sun 2000          | yes (TODO: Included Inverter) | yes                          | no                      | https://community.symcon.de/t/modbus-vorlagen-huawei-pv/135450, https://community.symcon.de/t/modbus-vorlage-huawei-dtsu666-h-und-sun200-4-6ktl-l1/135275 (Vorlage umgesetzt vom 1. Link)
 Solplanet ASW            | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solplanet-asw-gen-aiswei-inverter/142670
 GoodWe ET                | yes (no restriction register) | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-goodwe-et/137190
-Solax X3-HybridG4        | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-solax-x3-hybridg4/135959
+Solax X3-HybridG4        | yes (no restriction register) | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-solax-x3-hybridg4/135959
 Deye Sun xxK-SG04lp3     | no                            | no                           | no                      | https://community.symcon.de/t/modbus-vorlage-deye-sun-xxk-sg04lp3/135685/32
 
 ## Meters
