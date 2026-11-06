@@ -69,10 +69,10 @@
                             "InfoVariableID": "*SOC",
                             "Invert": false,
                             "Name": "~Name",
-                            "SecondaryVariableID": "*Pcharge1",
+                            "SecondaryVariableID": "*Pdischarge1",
                             "Type": "storage",
                             "VariableConfigType": 1,
-                            "VariableID": "*Pdischarge1"
+                            "VariableID": "*Pcharge1"
                         }
                     ]
                 },

@@ -27,7 +27,7 @@
                         "SourceID": "*21x_W_Watt",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
-                        "SourceInvert": 1,
+                        "SourceInvert": -1,
                         "DeficitID": 1
                     }
                 }
@@ -58,7 +58,7 @@
                         "SourceID": "*21x_W",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
-                        "SourceInvert": 1,
+                        "SourceInvert": -1,
                         "DeficitID": 1
                     }
                 }

@@ -27,7 +27,7 @@
                         "SourceID": "*A_6_3_40",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
-                        "SourceInvert": 1,
+                        "SourceInvert": -1,
                         "DeficitID": 1
                     }
                 }

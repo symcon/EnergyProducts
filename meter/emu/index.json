@@ -16,10 +16,10 @@
                         "InfoVariableID": 1,
                         "Invert": false,
                         "Name": "~Name",
-                        "SecondaryVariableID": "*Bezug__W_",
+                        "SecondaryVariableID": "*Lieferung__W_",
                         "Type": "grid",
                         "VariableConfigType": 1,
-                        "VariableID": "*Lieferung__W_"
+                        "VariableID": "*Bezug__W_"
                     }
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {

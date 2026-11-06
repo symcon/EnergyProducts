@@ -27,7 +27,7 @@
                         "SourceID": "*A_6_3_57",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
-                        "SourceInvert": 1,
+                        "SourceInvert": -1,
                         "DeficitID": 1
                     }
                 }
@@ -58,7 +58,7 @@
                         "SourceID": "*Active_Power_L1_L3_W",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
-                        "SourceInvert": 1,
+                        "SourceInvert": -1,
                         "DeficitID": 1
                     }
                 }

@@ -27,7 +27,7 @@
                         "SourceID": "*A_7_4_2490",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
-                        "SourceInvert": 1,
+                        "SourceInvert": -1,
                         "DeficitID": 1
                     }
                 }
@@ -58,7 +58,7 @@
                         "SourceID": "*A_7_4_2490",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
-                        "SourceInvert": 1,
+                        "SourceInvert": -1,
                         "DeficitID": 1
                     }
                 }

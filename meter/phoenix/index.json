@@ -30,7 +30,7 @@
                         "SourceID": "*Active_Power_Sum_100",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
-                        "SourceInvert": 1,
+                        "SourceInvert": -1,
                         "DeficitID": 1
                     }
                 }
@@ -61,7 +61,7 @@
                         "SourceID": "*Active_Power_Sum_100",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
-                        "SourceInvert": 1,
+                        "SourceInvert": -1,
                         "DeficitID": 1
                     }
                 }

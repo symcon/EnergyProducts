@@ -15,7 +15,7 @@
                             "CalculationType": 0,
                             "Grouped": false,
                             "InfoVariableID": "*MQTT_PV_BATTERY",
-                            "Invert": false,
+                            "Invert": true,
                             "Name": "~Name",
                             "SecondaryVariableID": 1,
                             "Type": "storage",

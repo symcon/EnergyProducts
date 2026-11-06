@@ -14,17 +14,17 @@
                         "CalculationType": 0,
                         "Grouped": false,
                         "InfoVariableID": 1,
-                        "Invert": false,
+                        "Invert": true,
                         "Name": "~Name",
                         "SecondaryVariableID": 1,
                         "Type": "grid",
                         "VariableConfigType": 0,
-                        "VariableID": "*A_5_3_40190"
+                        "VariableID": "*A_5_3_40206"
                     }
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
                     "Meters": {
-                        "SourceID": "*A_5_3_40190",
+                        "SourceID": "*A_5_3_40206",
                         "SourceMode": "relative",
                         "IndividualDeficitVariable": false,
                         "SourceInvert": 1,
