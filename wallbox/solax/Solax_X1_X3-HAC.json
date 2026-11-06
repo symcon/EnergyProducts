@@ -1,0 +1,959 @@
+{
+    "ByteOrder": 3,
+    "Profiles": {
+        "SolaxHAC.Watt": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "SolaxHAC.WattSet": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 22000,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 1,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "SolaxHAC.Seconds": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": " s",
+            "Type": 1
+        },
+        "SolaxHAC.State": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Available",
+                    "Value": 0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Preparing",
+                    "Value": 1
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charging",
+                    "Value": 2
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Finish",
+                    "Value": 3
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Faulted",
+                    "Value": 4
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unavailable",
+                    "Value": 5
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Reserved",
+                    "Value": 6
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SuspendedEV",
+                    "Value": 7
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SuspendedEVSE",
+                    "Value": 8
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Update",
+                    "Value": 9
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "CardActivation",
+                    "Value": 10
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "StartDelay",
+                    "Value": 11
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "ChargePause",
+                    "Value": 12
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Stopping",
+                    "Value": 13
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SolaxHAC.Scene": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "PV Mode",
+                    "Value": 0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standard Mode",
+                    "Value": 1
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "OCPP Mode",
+                    "Value": 2
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SolaxHAC.Command": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Available",
+                    "Value": 1
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unavailable",
+                    "Value": 2
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Stop Charge",
+                    "Value": 3
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Start Charge",
+                    "Value": 4
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SolaxHAC.Phase": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Three-phase",
+                    "Value": 0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phase 1",
+                    "Value": 1
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phase 2",
+                    "Value": 2
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phase 3",
+                    "Value": 3
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SolaxHAC.Mode": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "FAST",
+                    "Value": 0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "ECO",
+                    "Value": 1
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "GREEN",
+                    "Value": 2
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SolaxHAC.TypePower": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "6 kW",
+                    "Value": 0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "7 kW",
+                    "Value": 1
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "11 kW",
+                    "Value": 2
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "22 kW",
+                    "Value": 3
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "4.6 kW",
+                    "Value": 4
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SolaxHAC.TypePhase": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Single phase",
+                    "Value": 0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Three phase",
+                    "Value": 1
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SolaxHAC.Lock": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unlocked",
+                    "Value": 0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Locked",
+                    "Value": 1
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0,
+            "MinValue": 0,
+            "Prefix": "",
+            "StepSize": 0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Voltage L1",
+            "Profile": "~Volt",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Voltage L2",
+            "Profile": "~Volt",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Voltage L3",
+            "Profile": "~Volt",
+            "ReadAddress": 2,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Current L1",
+            "Profile": "~Ampere",
+            "ReadAddress": 4,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Current L2",
+            "Profile": "~Ampere",
+            "ReadAddress": 5,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Current L3",
+            "Profile": "~Ampere",
+            "ReadAddress": 6,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Charge Power L1",
+            "Profile": "SolaxHAC.Watt",
+            "ReadAddress": 8,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladeleistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Charge Power L2",
+            "Profile": "SolaxHAC.Watt",
+            "ReadAddress": 9,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladeleistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Charge Power L3",
+            "Profile": "SolaxHAC.Watt",
+            "ReadAddress": 10,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladeleistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "TotalChargePower",
+            "Length": 0,
+            "Name": "Total Charge Power",
+            "Profile": "SolaxHAC.Watt",
+            "ReadAddress": 11,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladeleistung gesamt"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energy Current Charge",
+            "Profile": "~Electricity",
+            "ReadAddress": 15,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie aktueller Ladevorgang"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energy Total",
+            "Profile": "~Electricity",
+            "ReadAddress": 16,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie gesamt"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Power L1",
+            "Profile": "SolaxHAC.Watt",
+            "ReadAddress": 21,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netzleistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Power L2",
+            "Profile": "SolaxHAC.Watt",
+            "ReadAddress": 22,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netzleistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Power L3",
+            "Profile": "SolaxHAC.Watt",
+            "ReadAddress": 23,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netzleistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Power Total",
+            "Profile": "SolaxHAC.Watt",
+            "ReadAddress": 24,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netzleistung gesamt"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "EVSEState",
+            "Length": 0,
+            "Name": "State",
+            "Profile": "SolaxHAC.State",
+            "ReadAddress": 29,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Fault Code",
+            "Profile": "",
+            "ReadAddress": 30,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehlercode"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Rated Power",
+            "Profile": "SolaxHAC.TypePower",
+            "ReadAddress": 33,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Nennleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Phase Type",
+            "Profile": "SolaxHAC.TypePhase",
+            "ReadAddress": 34,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phasentyp"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Firmware Version",
+            "Profile": "",
+            "ReadAddress": 37,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmwareversion"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Charging Duration",
+            "Profile": "SolaxHAC.Seconds",
+            "ReadAddress": 43,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladedauer"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Lock Status",
+            "Profile": "SolaxHAC.Lock",
+            "ReadAddress": 45,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verriegelung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Scene",
+            "Profile": "SolaxHAC.Scene",
+            "ReadAddress": 1564,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebsart"
+                }
+            ],
+            "WriteAddress": 1564,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Charge Phase",
+            "Profile": "SolaxHAC.Phase",
+            "ReadAddress": 1573,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladephase"
+                }
+            ],
+            "WriteAddress": 1573,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Control Command",
+            "Profile": "SolaxHAC.Command",
+            "ReadAddress": 1575,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Steuerbefehl"
+                }
+            ],
+            "WriteAddress": 1575,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Charge Current",
+            "Profile": "~Ampere",
+            "ReadAddress": 1576,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladestrom"
+                }
+            ],
+            "WriteAddress": 1576,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "AdjustChargePower",
+            "Length": 0,
+            "Name": "Charge Power",
+            "Profile": "SolaxHAC.WattSet",
+            "ReadAddress": 1603,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladeleistung Vorgabe"
+                }
+            ],
+            "WriteAddress": 1603,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Maximum Charge Current",
+            "Profile": "~Ampere",
+            "ReadAddress": 1640,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximaler Ladestrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Mode",
+            "Profile": "SolaxHAC.Mode",
+            "ReadAddress": 1641,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Modus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "VirtualAddresses": []
+}

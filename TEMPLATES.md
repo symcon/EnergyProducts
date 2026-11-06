@@ -124,6 +124,7 @@ ChargeHere Zaptec Pro             | no (no switchable variable) | no (no Energy 
 Kathrein KWB                      | no (no target variable)     | yes                          | no                      | https://community.symcon.de/t/modbus-vorlage-kathrein-kwb-wallboxen/138451
 DaheimLaden Smart PRO, ...        | no (template without units) | no (no Energy Manager)       | no                      | https://community.symcon.de/t/modbus-vorlage-daheimladen-wallbox/144085
 Wallbe Eco 2.0                    | yes                         | no (no consumption variable) | no                      | https://community.symcon.de/t/modbus-vorlage-wallbox-wallbe-eco-2-0/135458
+Solax X1/X3-HAC                   | yes                         | yes                          | no                      | X1 X3-HAC EV Charger Modbus RTU/TCP Communication protocols V1.0.0
 
 ## Control Boxes (§14a and §9)
 Template                  | Supports Energy Manager                    | Supports Energy Distribution | Tested with real device | Source
