@@ -58,36 +58,21 @@
                     ]
                 },
                 "{2E863560-5434-7166-C3F6-111D5D471A43}": {
-                    "Batteries": [
-                        {
-                            "Name": "~Name",
-                            "Active": false,
-                            "IndividualDischargeVariable": false,
-                            "Invert": 1,
-                            "Usage": "~Usage",
-                            "CurrentUsageInvert": -1,
-                            "Capacity": "~Capacity",
-                            "VariableID": 1,
-                            "CurrentUsageVariableID": "*A_6_3_35264",
-                            "DischargeVariableID": 1,
-                            "StatusVariableID": 1,
-                            "LevelVariableID": "*A_5_3_47908"
-                        },
-                        {
-                            "Name": "~Name",
-                            "Active": false,
-                            "IndividualDischargeVariable": false,
-                            "Invert": 1,
-                            "Usage": "~Usage",
-                            "CurrentUsageInvert": -1,
-                            "Capacity": "~Capacity",
-                            "VariableID": 1,
-                            "CurrentUsageVariableID": "*A_6_3_35182",
-                            "DischargeVariableID": 1,
-                            "StatusVariableID": 1,
-                            "LevelVariableID": "*A_5_3_47926"
-                        }
-                    ],
+                    "Batteries": {
+                        "Name": "~Name",
+                        "Active": true,
+                        "IndividualDischargeVariable": false,
+                        "Invert": 1,
+                        "ControlDischarge": true,
+                        "Usage": "~Usage",
+                        "CurrentUsageInvert": -1,
+                        "Capacity": "~Capacity",
+                        "VariableID": "*BatteryControl",
+                        "CurrentUsageVariableID": "*BatteryPower",
+                        "DischargeVariableID": 1,
+                        "StatusVariableID": 1,
+                        "LevelVariableID": "*BatterySOC"
+                    },
                     "Meters": {
                         "SourceID": "*A_6_3_36025",
                         "SourceMode": "relative",
