@@ -1,0 +1,1520 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Reboot",
+            "Profile": "~Switch",
+            "ReadAddress": 264,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 264,
+            "WriteFunctionCode": 5
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Error Input",
+            "Profile": "MENNEKES.Amtron_Simple",
+            "ReadAddress": 512,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Mirror Contact",
+            "Profile": "MENNEKES.Amtron_Simple",
+            "ReadAddress": 513,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Socket locking",
+            "Profile": "MENNEKES.Amtron_Simple",
+            "ReadAddress": 514,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Shunt trip",
+            "Profile": "MENNEKES.Amtron_Simple",
+            "ReadAddress": 515,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Contactor",
+            "Profile": "MENNEKES.Amtron_Simple",
+            "ReadAddress": 516,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Socket locking",
+            "Profile": "MENNEKES.Amtron_Simple",
+            "ReadAddress": 517,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperature Sensor Installed",
+            "Profile": "MENNEKES.Amtron_Installed",
+            "ReadAddress": 518,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Local Fuses Installed",
+            "Profile": "MENNEKES.Amtron_Installed",
+            "ReadAddress": 519,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energy Manager Installed",
+            "Profile": "MENNEKES.Amtron_Installed",
+            "ReadAddress": 520,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "External Tariff Switch Connected",
+            "Profile": "MENNEKES.Amtron_Connection",
+            "ReadAddress": 521,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Monitoring Relay Wired to 1 Phase Only",
+            "Profile": "MENNEKES.Amtron_Monitoring_Relay_Wired_to_1_Phase_Only",
+            "ReadAddress": 522,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "RFID Authorization",
+            "Profile": "MENNEKES.Amtron_RFID_Authorization",
+            "ReadAddress": 522,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Power Fail Continue",
+            "Profile": "MENNEKES.Amtron_Enabled_Simple",
+            "ReadAddress": 523,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Autostart Charging",
+            "Profile": "MENNEKES.Amtron_Enabled_Simple",
+            "ReadAddress": 524,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Stop Button",
+            "Profile": "MENNEKES.Amtron_Enabled_Simple",
+            "ReadAddress": 525,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Color Schema",
+            "Profile": "MENNEKES.Amtron_Color_Schema",
+            "ReadAddress": 526,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "RFID Beep",
+            "Profile": "MENNEKES.Amtron_Enabled_Simple",
+            "ReadAddress": 527,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WLAN Communication",
+            "Profile": "MENNEKES.Amtron_Enabled_Simple",
+            "ReadAddress": 528,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Currently Summer",
+            "Profile": "MENNEKES.Amtron_Currently_Summer",
+            "ReadAddress": 529,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EV Wake-Up",
+            "Profile": "MENNEKES.Amtron_Enabled_Simple",
+            "ReadAddress": 530,
+            "ReadFunctionCode": 2,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HMI Temperature Internal",
+            "Profile": "MENNEKES.Amtron_Temperature",
+            "ReadAddress": 768,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HMI Temperature External",
+            "Profile": "MENNEKES.Amtron_Temperature",
+            "ReadAddress": 769,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "CP State",
+            "Profile": "MENNEKES.Amtron_VEHICLE_STATE",
+            "ReadAddress": 770,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PP State",
+            "Profile": "MENNEKES.Amtron_PP_State",
+            "ReadAddress": 771,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HCC3 Error Code",
+            "Profile": "MENNEKES.Amtron_HCC3_ERROR_Code",
+            "ReadAddress": 772,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMTRON State",
+            "Profile": "MENNEKES.Amtron_State",
+            "ReadAddress": 773,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMTRON Operation Mode",
+            "Profile": "MENNEKES.Amtron_Operation_Mode",
+            "ReadAddress": 774,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Connector Type",
+            "Profile": "MENNEKES.Amtron_Connector_Type",
+            "ReadAddress": 775,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMTRON No. of Phases",
+            "Profile": "MENNEKES.Amtron_No_Phase",
+            "ReadAddress": 776,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMTRON Rated Current",
+            "Profile": "MENNEKES.Amtron_Current",
+            "ReadAddress": 777,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMTRON Installation Current",
+            "Profile": "MENNEKES.Amtron_Current",
+            "ReadAddress": 778,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Serial Number",
+            "Profile": "",
+            "ReadAddress": 779,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Charging session meter count",
+            "Profile": "MENNEKES.Amtron_Charging",
+            "ReadAddress": 781,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual power consumption",
+            "Profile": "MENNEKES.Amtron_Power",
+            "ReadAddress": 783,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 2,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 22,
+            "Name": "AMTRON Wallbox Name",
+            "Profile": "",
+            "ReadAddress": 785,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Max Current T1",
+            "Profile": "MENNEKES.Amtron_Current",
+            "ReadAddress": 787,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Start hour T1",
+            "Profile": "MENNEKES.Amtron_Hour",
+            "ReadAddress": 788,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Start minute T1",
+            "Profile": "MENNEKES.Amtron_Minute",
+            "ReadAddress": 789,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Price T1",
+            "Profile": "MENNEKES.Amtron_Price",
+            "ReadAddress": 790,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Max Current T2",
+            "Profile": "MENNEKES.Amtron_Current",
+            "ReadAddress": 791,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Start hour T2",
+            "Profile": "MENNEKES.Amtron_Hour",
+            "ReadAddress": 792,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Start minute T2",
+            "Profile": "MENNEKES.Amtron_Minute",
+            "ReadAddress": 793,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Price T2",
+            "Profile": "MENNEKES.Amtron_Price",
+            "ReadAddress": 794,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Planned min current",
+            "Profile": "MENNEKES.Amtron_Current",
+            "ReadAddress": 795,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Planned max current",
+            "Profile": "MENNEKES.Amtron_Current",
+            "ReadAddress": 796,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Planned min power",
+            "Profile": "MENNEKES.Amtron_Power",
+            "ReadAddress": 797,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Planned max power",
+            "Profile": "MENNEKES.Amtron_Power",
+            "ReadAddress": 798,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Customer Current Limitation",
+            "Profile": "MENNEKES.Amtron_Current_Limit",
+            "ReadAddress": 1024,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 1024,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Change charge state",
+            "Profile": "MENNEKES.Change_Charge_State",
+            "ReadAddress": 1025,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 1025,
+            "WriteFunctionCode": 6
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "MENNEKES.Amtron_Charging": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Wh",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Color_Schema": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "IDLE-blue; CHARGE-green; WAIT-white; ERROR-red",
+                    "Value": false
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "IDLE-green; CHARGE-blue; WAIT-white; ERROR-red",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        },
+        "MENNEKES.Amtron_Connection": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not connected",
+                    "Value": false
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Connected",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        },
+        "MENNEKES.Amtron_Connector_Type": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unknown",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Cable Type 1",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Cable Type 2",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Socket with Shutter",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Socket with Flip-Top",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 4.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Current": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Current_Limit": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Currently_Summer": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Time offset is +0h",
+                    "Value": false
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Time offset is +1h",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        },
+        "MENNEKES.Amtron_Enabled_Simple": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "disabled",
+                    "Value": false
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "enabled",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        },
+        "MENNEKES.Amtron_HCC3_ERROR_Code": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "No error",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Installation fault",
+                    "Value": 10.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Controller fault",
+                    "Value": 11.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Misconfiguration",
+                    "Value": 12.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Overtemperature",
+                    "Value": 13.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Mirror contactor error",
+                    "Value": 14.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Invalid device time",
+                    "Value": 15.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energy Manager connection error",
+                    "Value": 16.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Device startup",
+                    "Value": 30.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Internal test not passed",
+                    "Value": 31.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "HMI no connection",
+                    "Value": 32.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Badly plugged cable",
+                    "Value": 50.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wrong cable",
+                    "Value": 51.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Defect cable",
+                    "Value": 52.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "ACU communication error (SCU mode only)",
+                    "Value": 100.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not polled by ACU (SCU mode only)",
+                    "Value": 101.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Maintenance (SCU mode only)",
+                    "Value": 102.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disabled (SCU mode only)",
+                    "Value": 103.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unknown error",
+                    "Value": 255.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 255.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Hour": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "clock",
+            "MaxValue": 23.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " h",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Installed": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not installed",
+                    "Value": false
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Installed",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        },
+        "MENNEKES.Amtron_Minute": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "clock",
+            "MaxValue": 59.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " min",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Monitoring_Relay_Wired_to_1_Phase_Only": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Monitoring relay like factory settings",
+                    "Value": false
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Monitoring relay is wired to 1 phase",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        },
+        "MENNEKES.Amtron_No_Phase": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unknown",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "1 Phase",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "3 Phase",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Operation_Mode": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Remote",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Time-Managed",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "External Switch",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_PP_State": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "illegal/bad",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Open",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "13A",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "20A",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "32A",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Menu",
+            "MaxValue": 4.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Power": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 22080.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Price": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "circle-dollar",
+            "MaxValue": 990.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " c/kWh",
+            "Type": 2
+        },
+        "MENNEKES.Amtron_RFID_Authorization": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RFID Authorization is disabled",
+                    "Value": false
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RFID Authorization is enabled",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        },
+        "MENNEKES.Amtron_Simple": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Inactive",
+                    "Value": false
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Active",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        },
+        "MENNEKES.Amtron_State": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Idle",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standby Authorize",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standby Connect",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charging",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Paused",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Terminated",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Error",
+                    "Value": 6.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 9.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_Temperature": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Temperature",
+            "MaxValue": 125.0,
+            "MinValue": -55.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " °C",
+            "Type": 1
+        },
+        "MENNEKES.Amtron_VEHICLE_STATE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A1",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A2",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B1",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B2",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "C1",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "C2",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "D1",
+                    "Value": 7.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "D2",
+                    "Value": 8.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Menu",
+            "MaxValue": 8.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.Change_Charge_State": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Running/Idle",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Pause",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Continue",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Terminate",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Start",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 4.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.POWER_TARGET_1PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 3680.0,
+            "MinValue": 1380.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "MENNEKES.POWER_TARGET_3PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 11040.0,
+            "MinValue": 4140.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": false,
+            "Ident": "POWER_TARGET_1PHASED",
+            "Name": "Power, 1-phased configuration (Target)",
+            "Profile": "MENNEKES.POWER_TARGET_1PHASED",
+            "ReadAction": "return $VALUES[\"HEMS_CURRENT_LIMIT\"]*230*1;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 1-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"HEMS_CURRENT_LIMIT\" => $VALUE/230/1\n];"
+        },
+        {
+            "Active": false,
+            "Ident": "POWER_TARGET_3PHASED",
+            "Name": "Power, 3-phased configuration (Target)",
+            "Profile": "MENNEKES.POWER_TARGET_3PHASED",
+            "ReadAction": "return $VALUES[\"HEMS_CURRENT_LIMIT\"]*230*3;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 3-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"HEMS_CURRENT_LIMIT\" => $VALUE/230/3\n];"
+        }
+    ]
+}
